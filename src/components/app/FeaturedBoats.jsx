@@ -4,6 +4,8 @@ import Image from 'next/image'
 import boat1 from '../../../public/images/app/featuredboats/boat1.png'
 import boat2 from '../../../public/images/app/featuredboats/boat2.png'
 import boat3 from '../../../public/images/app/featuredboats/boat3.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faRightLong } from '@fortawesome/free-solid-svg-icons'
 
 const boats =[
     {
@@ -56,6 +58,12 @@ const FeaturedBoats = () => {
         <h1 className='text-3xl !font-[900] poppins text-center text-[#1E3888]'>FEATURED BOATS</h1>
         <div className='grid grid-cols-1 md:grid-cols-3 mt-10'>
             {boats.map(boat => <Card boat={boat} />)}
+        </div>
+        <div className='mt-16'>
+            <h3 className='text-lg text-center text-[#170312CC] font-semibold flex justify-center'>VIEW ALL <FontAwesomeIcon className='w-[10px] ml-2' icon={faRightLong} /></h3>
+            <p className='poppins text-[#0b0b0b] text-center mt-10 md:px-20 px-10'>
+            Each Kettuvallam is a masterpiece that echoes the artistry of Kerala's boat building legacy. Admire the intricate wooden work that adorns the exteriors, a tribute to the skilled hands that meticulously craft every detail. Step inside, and you'll find a world where tradition meets innovation, where hand-carved accents harmonize with contemporary amenities.
+            </p>
         </div>
     </div>
   )
