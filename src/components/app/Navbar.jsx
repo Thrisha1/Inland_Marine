@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
+import Logo from '../../../public/images/logo.png'
 
 const Navbar = () => {
   const [navbar, setNavbar] = React.useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                       <div className='flex justify-center items-center'>
-                        <Image src="/logo.png" width="150" height="150" />
+                        <Image src={Logo} width="150" height="150" />
                         <a href="javascript:void(0)">
                             <h2 className="text-2xl font-bold text-[#1E3888] poppins">INLAND <br /> MARINE</h2>
                         </a>
