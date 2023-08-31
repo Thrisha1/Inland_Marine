@@ -29,7 +29,7 @@ const boats =[
 const Card = ({boat}) => {
     const starArray = new Array(boat.stars).fill(null);
     return(
-        <div className='mx-auto rounded-[15px] shadow-md'>
+        <div className='mx-auto rounded-[15px] shadow-md md:mb-0 mb-10'>
             <Image src={boat.img} height="200" width="350" className='h-[200px] w-[350px] rounded-[15px]' alt="" />
             <div className='flex relative bottom-[35px] left-[10px]'>
                 <div className='px-4 py-1 bg-white rounded-[15px]'>
@@ -54,7 +54,7 @@ const FeaturedBoats = () => {
   return (
     <div>
         <h1 className='text-3xl !font-[900] poppins text-center text-[#1E3888]'>FEATURED BOATS</h1>
-        <div className='grid grid-cols-3 mt-10'>
+        <div className='grid grid-cols-1 md:grid-cols-3 mt-10'>
             {boats.map(boat => <Card boat={boat} />)}
         </div>
     </div>
