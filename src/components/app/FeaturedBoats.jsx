@@ -39,10 +39,6 @@ const Card = ({boat}) => {
                 </div>
                 <div className='flex ml-2 items-center'>
                     {starArray.map((_, i) => <UisStar key={i} className="text-white h-[20px]"/>)}
-                    {/* <UisStar className="text-white h-[20px]"/>
-                    <UisStar className="text-white h-[20px]"/>
-                    <UisStar className="text-white h-[20px]"/>
-                    <UisStar className="text-white h-[20px]"/> */}
                 </div>
             </div>
             <div className='pb-5'>
