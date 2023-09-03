@@ -5,6 +5,7 @@ import React from 'react'
 
 const Popup = ({data, starArray}) => {
     return(
+        // I NEED TO CODE THE CROSS BUTTON TOO
         <div className="absolute top-0 z-2 py-5 w-full">
             <div className="bg-white w-[90%] rounded-[15px] py-5 px-5">
                 <Image src={data.img} width={"90%"} height={"100%"} className="w-[90%] h-[350px] flex m-auto"  alt="boat" />
