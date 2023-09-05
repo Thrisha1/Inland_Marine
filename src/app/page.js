@@ -1,20 +1,13 @@
-"use client";
-import FeaturedBoats from "@/components/designs/featuredboats";
-import InteriorDesigns from "@/components/designs/InteriorDesigns";
-import ContactUs from "@/components/designs/ContactUs";
-import React from 'react';
+import Carousel from "@/components/app/Carousel"
+import FeaturedBoats from "@/components/app/FeaturedBoats"
+import Interior from "../components/app/Interior"
 
-export default function Design(){
-    const [val, setVal] = React.useState(0)
-    React.useEffect(() => {
-        console.log(val)
-    }, [val])
-    return(
-        <div>
-            <button onClick={() => setVal(val => val+1)}>Click me</button>
-            <FeaturedBoats />
-            <InteriorDesigns />
-            <ContactUs />
-        </div>
-    )
+export default function Home() {
+  return (
+    <div>
+      <Carousel />
+      <FeaturedBoats />
+      <Interior />
+    </div>
+  )
 }
