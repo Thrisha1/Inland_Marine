@@ -8,7 +8,7 @@ import interior3 from '../../../public/images/app/interior/interior3.png'
 
 const Interior = () => {
   return (
-    <div className='mt-20 px-16'>
+    <div className='my-20 px-16'>
         <div className='bg-white rounded-[25px] shadow-lg py-5'>
             <h1 className='text-3xl !font-[900] poppins text-center text-[#1E3888]'>INTERIOR DESIGNS</h1>
             <div className='mt-16 flex justify-center'>

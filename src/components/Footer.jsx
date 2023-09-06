@@ -6,7 +6,7 @@ import Logo2 from '../../public/images/logo2.png'
 
 export const Footer = () => {
     return(
-        <div className='mt-20'>
+        <div className=''>
             <div className='bg-[#1E3888] px-20 pt-10 pb-5'>
                 <div className='flex justify-evenly items-center'>
                     <h4 className='hidden md:block text-white poppins font-semibold'>More info</h4>

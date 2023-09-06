@@ -63,7 +63,7 @@ const Popup = ({data, starArray}) => {
 
 
 export const Card = ({data}) => {
-    const [showPop, setShowPop] = React.useState(true)
+    const [showPop, setShowPop] = React.useState(false)
     const starArray = new Array(data.stars).fill(null) || null;
     return(
         <>
@@ -89,7 +89,7 @@ export const Card = ({data}) => {
                         <h1 className='mt-3 md:mt-0 text-[#1E3888] sm:text-center poppins text-xl font-semibold'>{data.title}</h1>
                         <p className='mt-10 font-semibold poppins '>{data.tag}</p>
                         <p className='mt-5 poppins'>{data.desc}</p>
-                        <button className='mt-16 bg-[#1E3888] text-white text-center px-4 py-2 rounded-[20px]'>VIEW DETAILS</button>
+                        <button onClick={() => setShowPop(true)} className='mt-16 bg-[#1E3888] text-white text-center px-4 py-2 rounded-[20px]'>VIEW DETAILS</button>
                     </div>
                 </div>
             </div>
