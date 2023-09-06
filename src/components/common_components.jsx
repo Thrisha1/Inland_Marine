@@ -1,9 +1,10 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export const NavBtn = ({name, to, path}) => {
     return (
         <Link href={to} className={`text-[#1E3888] cursor-pointer poppins font-bold rounded-[5px] text-center px-3 py-1 ${path === to ? "bg-[#1E3888] text-white" : "bg-[#F9F9F9] hover:bg-[#1E3888] hover:text-[#F9F9F9]"}`}>
-            <Link href={to}>{name}</Link>
+            <p href={to}>{name}</p>
         </Link>
     )
 }
@@ -21,5 +22,13 @@ export const Subline = ({para}) => {
         <>
             <p className='text-[#0B0B0B] poppins md:px-20 px-5 text-center'>{para}</p>
         </>
+    )
+}
+
+export const ImgBanner = ({img}) => {
+    return(
+        <div className='mt-20'>
+            <Image src={img} className='w-[100%]' />
+        </div>
     )
 }

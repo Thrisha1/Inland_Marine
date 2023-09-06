@@ -1,8 +1,8 @@
 "use client";
-import TopHalf from '@/components/services/TopHalf';
-import React from 'react';
 import { ImgBanner } from '@/components/common_components';
-import img from '../../../public/images/services/bg.png'
+import React from 'react';
+import img from '../../../public/images/contact/bg.png'
+import TopHalf from '@/components/contact/TopHalf';
 
 export default function Design(){
     return(
