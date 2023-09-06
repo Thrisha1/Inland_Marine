@@ -6,8 +6,8 @@ import React from 'react'
 const Popup = ({data, starArray}) => {
     return(
         // I NEED TO CODE THE CROSS BUTTON TOO
-        <div className="absolute top-0 z-2 py-5 w-full">
-            <div className="bg-white w-[90%] rounded-[15px] py-5 px-5">
+        <div className="absolute top-0 left-0 z-3 bg-black bg-opacity-50 py-10 px-20 w-[100%] h-[5000px]">
+            <div className="bg-white w-[100%] rounded-[15px] py-5 px-10">
                 <Image src={data.img} width={"90%"} height={"100%"} className="w-[90%] h-[350px] flex m-auto"  alt="boat" />
                 <div className="my-5">
                     <div className="flex justify-center my-5">
@@ -63,10 +63,10 @@ const Popup = ({data, starArray}) => {
 
 
 export const Card = ({data}) => {
-    const [showPop, setShowPop] = React.useState(false)
+    const [showPop, setShowPop] = React.useState(true)
     const starArray = new Array(data.stars).fill(null) || null;
     return(
-        <>
+        <div>
             {showPop && data.type && <Popup data={data} starArray={starArray} />}
             <div onClick={() => setShowPop(true)} className='mt-20 bg-white px-5 py-5 rounded-[20px]'>
                 <div className='md:flex grid grid-cols-1'>
@@ -93,6 +93,6 @@ export const Card = ({data}) => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
