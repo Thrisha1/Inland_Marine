@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactUs = () => {
   return (
-    <div className='mt-20'>
+    <div className='my-20'>
         <div className='md:px-20 px-5'>
             <div className='bg-[#1E3888] px-10 py-7 rounded-[20px]'>
                 <h3 className='text-center text-white poppins text-xl'>Reach Out to Us Today and Let Your Waterborne Dreams Set Sail</h3>
