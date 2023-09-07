@@ -32,3 +32,9 @@ export const ImgBanner = ({img}) => {
         </div>
     )
 }
+
+
+
+
+
+
