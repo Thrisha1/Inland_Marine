@@ -1,5 +1,5 @@
 import React from 'react'
-import { Headline, Subline } from '../common_components'
+import { Headline, Subline } from '../common_components/common_components.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'

@@ -1,6 +1,5 @@
 import React from 'react'
-import { Headline } from '../common_components'
-import { Subline } from '../common_components'
+import { Headline ,Subline} from '../common_components/common_components.jsx'
 import boat1 from '../../../public/images/app/featuredboats/boat1.png'
 import boat2 from '../../../public/images/app/featuredboats/boat2.png'
 import Image from 'next/image'

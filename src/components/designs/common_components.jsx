@@ -63,7 +63,7 @@ const Popup = ({data, starArray}) => {
 
 
 export const Card = ({data}) => {
-    const [showPop, setShowPop] = React.useState(true)
+    const [showPop, setShowPop] = React.useState(false)
     const starArray = new Array(data.stars).fill(null) || null;
     return(
         <div>

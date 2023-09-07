@@ -10,8 +10,7 @@ import boat15 from '../../../public/images/designs/featuredboats/boat1/boat15.pn
 import boat16 from '../../../public/images/designs/featuredboats/boat1/boat16.png'
 import boat17 from '../../../public/images/designs/featuredboats/boat1/boat17.png'
 import { Card } from './common_components'
-import { Subline } from '../common_components'
-import { Headline } from '../common_components'
+import { Headline ,Subline} from '../common_components/common_components.jsx'
 
 
 const boats = [

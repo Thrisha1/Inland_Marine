@@ -7,6 +7,7 @@ import boat3 from '../../../public/images/app/featuredboats/boat3.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRightLong } from '@fortawesome/free-solid-svg-icons'
 
+
 const boats =[
     {
         img: boat1,

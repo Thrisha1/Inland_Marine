@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Logo from '../../public/images/logo.png'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { NavBtn } from './common_components';
+import { NavBtn } from './common_components/common_components.jsx';
 
 export const Navbar = () => {
   const [navbar, setNavbar] = React.useState(false);

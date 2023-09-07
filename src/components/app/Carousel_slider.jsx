@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React,{useState,useEffect} from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
@@ -18,18 +18,34 @@ const PropertyImages = [
 ];
 
 const Carousel_slider = () => {
+
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setActiveIndex((prevIndex) =>
+        prevIndex === PropertyImages?.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 2000);
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, [PropertyImages]);
+
   return (
     <div className="">
       <h1>Slider</h1>
       <Carousel
-        autoPlay={true} // Auto play the carousel
-        interval={2000} // Animation duration in 1000 ms (1 second)
-        showIndicators={true} // Show navigation indicators
-        showThumbs={false} // Hide thumbnail images
-        showStatus={false} // Hide status bar
-        infiniteLoop={true} // Cycle navigation
-        swipeable={true} // Enable swipe navigation
-        dynamicHeight={false} // Adjust carousel height to content
+       selectedItem={activeIndex}
+       autoPlay={false} // Disable the internal autoplay
+       infiniteLoop={true}
+       interval={3000}
+       showIndicators={true}
+       showThumbs={false}
+       showStatus={false}
+       swipeable={true}
+       dynamicHeight={false} // Adjust carousel height to content
       >
         {PropertyImages?.map((item) => (
           <div>
