@@ -10,6 +10,8 @@ import boat15 from '../../../public/images/designs/featuredboats/boat1/boat15.pn
 import boat16 from '../../../public/images/designs/featuredboats/boat1/boat16.png'
 import boat17 from '../../../public/images/designs/featuredboats/boat1/boat17.png'
 import { Card } from './common_components'
+import { Subline } from '../common_components'
+import { Headline } from '../common_components'
 
 
 const boats = [
@@ -67,9 +69,9 @@ const boats = [
 const FeaturedBoats = () => {
   return (
     <div className='mt-20'>
-        <h1 className='text-3xl !font-[900] poppins text-center text-[#1E3888]'>FEATURED BOATS</h1>
+        <Headline name="FEATURED BOATS" />
         <div className='my-20'>
-            <p className='text-[#0B0B0B] poppins md:px-20 px-5 text-center'>Each Kettuvallam is a masterpiece that echoes the artistry of Kerala's boat building legacy. Admire the intricate wooden work that adorns the exteriors, a tribute to the skilled hands that meticulously craft every detail. Step inside, and you'll find a world where tradition meets innovation, where hand-carved accents harmonize with contemporary amenities.</p>
+            <Subline para="Each Kettuvallam is a masterpiece that echoes the artistry of Kerala's boat building legacy. Admire the intricate wooden work that adorns the exteriors, a tribute to the skilled hands that meticulously craft every detail. Step inside, and you'll find a world where tradition meets innovation, where hand-carved accents harmonize with contemporary amenities." />
         </div>
         <div className='md:px-20 px-5'>
             <div className='grid grid-cols-1'>
