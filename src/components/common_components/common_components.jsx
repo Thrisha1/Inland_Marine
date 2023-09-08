@@ -28,7 +28,7 @@ export const Subline = ({para}) => {
 export const ImgBanner = ({img}) => {
     return(
         <div className='mt-20'>
-            <Image src={img} className='w-[100%]' />
+            <Image src={img} className='w-[100%] md:h-[500px] h-[350px]' />
         </div>
     )
 }

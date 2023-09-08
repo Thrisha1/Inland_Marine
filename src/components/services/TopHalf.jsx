@@ -7,7 +7,7 @@ import Image from 'next/image'
 const Card = ({name, desc, img}) => {
     return(
         <div className='bg-white shadow-lg px-5 py-5 rounded-[15px]'>
-            <Image src={img} width="250" heigh="250" className='w-[100%]' />
+            <Image src={img} width="250" heigh="250" className='w-[100%] rounded-[15px]' />
             <div className='mt-10'>
                 <h2 className='text-center text-[#1E3888] poppins font-bold text-lg'>{name}</h2>
                 <p className='text-[#1E3888] poppins text-center mt-12'>{desc}</p>
