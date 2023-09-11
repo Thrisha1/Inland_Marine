@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react'
 import Image from 'next/image'
 import interior1 from '../../../public/images/app/interior/interior1.png'
