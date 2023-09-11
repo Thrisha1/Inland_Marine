@@ -12,7 +12,7 @@ export const NavBtn = ({name, to, path}) => {
 export const Headline = ({name}) => {
     return(
         <>
-            <h1 className='text-3xl !font-[900] poppins text-center text-[#1E3888]'>{name}</h1>
+            <h1 className='text-5xl !font-[900] poppins text-center text-[#1E3888]'>{name}</h1>
         </>
     )
 }
@@ -28,7 +28,7 @@ export const Subline = ({para}) => {
 export const ImgBanner = ({img}) => {
     return(
         <div className='mt-20'>
-            <Image src={img} className='w-[100%]' />
+            <Image src={img} className='w-[100%] md:h-[500px] h-[350px]' />
         </div>
     )
 }

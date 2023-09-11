@@ -8,7 +8,7 @@ const Popup = ({data, starArray}) => {
         // I NEED TO CODE THE CROSS BUTTON TOO
         <div className="absolute top-0 left-0 z-3 bg-black bg-opacity-50 py-10 px-20 w-[100%] h-[5000px]">
             <div className="bg-white w-[100%] rounded-[15px] py-5 px-10">
-                <Image src={data.img} width={"90%"} height={"100%"} className="w-[90%] h-[350px] flex m-auto"  alt="boat" />
+                <Image src={data.img} width={"90%"} height={"100%"} className="w-[90%] h-[350px] flex m-auto rounded-[15px]"  alt="boat" />
                 <div className="my-5">
                     <div className="flex justify-center my-5">
                         <h1 className='mt-3 md:mt-0 text-[#1E3888] sm:text-center poppins text-xl font-semibold'>{data.title}</h1>  
@@ -71,7 +71,7 @@ export const Card = ({data}) => {
             <div onClick={() => setShowPop(true)} className='mt-20 bg-white px-5 py-5 rounded-[20px]'>
                 <div className='md:flex grid grid-cols-1'>
                     <div className="">
-                        <Image src={data.img} className="md:min-w-[450px] min-w-[100%]" alt="boat" width="450" height="350" />
+                        <Image src={data.img} className="md:min-w-[450px] min-w-[100%] rounded-[15px]" alt="boat" width="450" height="350" />
                         {data.type && <div className='flex relative bottom-[45px] left-[20px]'>
                             <div className={
                             data.type == "DELUXE" ? 'px-5 py-2 bg-[#00FFF9] rounded-[20px]' 
