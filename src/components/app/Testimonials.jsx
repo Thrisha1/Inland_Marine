@@ -41,6 +41,7 @@ const Testimonials = () => {
             </div>
             <div className='md:my-10 my-7 flex justify-center'>
                 <button className='bg-white rounded-[25px] px-7 py-3 poppins text-[#1E3888] font-bold text-center'>ADD A REVIEW</button>
+                {/* <button className='bg-white rounded-[25px] px-7 py-3 poppins text-[#1E3888] font-bold text-center flex'>ADD A REVIEW <Image src={"../../../svg/downArrow.svg"} className='text-black' width="50" height="50" /> </button> */}
             </div>
         </div>
     </div>
