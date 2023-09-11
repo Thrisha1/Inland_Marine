@@ -12,7 +12,7 @@ export const NavBtn = ({name, to, path}) => {
 export const Headline = ({name}) => {
     return(
         <>
-            <h1 className='text-3xl !font-[900] poppins text-center text-[#1E3888]'>{name}</h1>
+            <h1 className='text-5xl !font-[900] poppins text-center text-[#1E3888]'>{name}</h1>
         </>
     )
 }

@@ -6,6 +6,7 @@ import boat2 from '../../../public/images/app/featuredboats/boat2.png'
 import boat3 from '../../../public/images/app/featuredboats/boat3.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRightLong } from '@fortawesome/free-solid-svg-icons'
+import { Headline } from './common_components'
 
 
 const boats =[
@@ -52,7 +53,7 @@ const Card = ({boat}) => {
 const FeaturedBoats = () => {
   return (
     <div>
-        <h1 className='text-3xl !font-[900] poppins text-center text-[#1E3888]'>FEATURED BOATS</h1>
+        <Headline text={"FEATURED BOATS"} />
         <div className='grid grid-cols-1 md:grid-cols-3 mt-10'>
             {boats.map(boat => <Card boat={boat} />)}
         </div>
