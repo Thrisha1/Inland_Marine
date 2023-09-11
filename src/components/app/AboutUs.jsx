@@ -3,7 +3,7 @@ import { Headline } from './common_components'
 
 const AboutUs = () => {
   return (
-    <div className='my-20 px-16'>
+    <div className='my-20 md:px-16 px-10'>
       <div className='py-5'>
         <Headline text={"ABOUT US"} />
         <div className='my-10'>
