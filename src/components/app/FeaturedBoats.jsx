@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react'
 import { UisStar } from '@iconscout/react-unicons-solid'
 import Image from 'next/image'
@@ -7,28 +9,30 @@ import boat3 from '../../../public/images/app/featuredboats/boat3.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRightLong } from '@fortawesome/free-solid-svg-icons'
 import { Headline } from './common_components'
+import { client } from '../../../sanity/lib/client';
+import { useStateContext } from '@/context/StateContext';
 
 
-const boats =[
-    {
-        img: boat1,
-        stars: 4,
-        title: "DELUXE HOUSEBOATS",
-        bookings: 30
-    },
-    {
-        img: boat2,
-        stars: 3,
-        title: "PREMIUM HOUSEBOATS",
-        bookings: 8
-    },
-    {
-        img: boat3,
-        stars: 3,
-        title: "DELUXE HOUSEBOATS",
-        bookings: 10
-    },
-]
+// const boats =[
+//     {
+//         img: boat1,
+//         stars: 4,
+//         title: "DELUXE HOUSEBOATS",
+//         bookings: 30
+//     },
+//     {
+//         img: boat2,
+//         stars: 3,
+//         title: "PREMIUM HOUSEBOATS",
+//         bookings: 8
+//     },
+//     {
+//         img: boat3,
+//         stars: 3,
+//         title: "DELUXE HOUSEBOATS",
+//         bookings: 10
+//     },
+// ]
 
 const Card = ({boat}) => {
     const starArray = new Array(boat.stars).fill(null);
@@ -51,6 +55,32 @@ const Card = ({boat}) => {
 }
 
 const FeaturedBoats = () => {
+    const { boats, setBoats } = useStateContext()
+
+    React.useEffect(() => {
+        const query = `*[_type == "featuredBoats"] {
+            title,
+            stars,
+            type,
+            tag,
+            desc,
+            architecture,
+            engex,
+            dimensions,
+            img,
+            imgs,
+            bookings
+        }`
+
+        client
+            .fetch(query)
+            .then(data => {
+                setBoats(data)
+                console.log(data)
+            })
+            .catch(error => console.error(error))
+    }, [])
+
   return (
     <div>
         <Headline text={"FEATURED BOATS"} />

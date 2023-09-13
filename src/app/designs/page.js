@@ -11,7 +11,7 @@ export default function Design(){
     // }, [val])
     return(
         <div>
-            {/* <button onClick={() => setVal(val => val+1)}>Click me</button> */}
+            {/* <button onClick={() => console.log('okay')}>Click me</button> */}
             <FeaturedBoats />
             <InteriorDesigns />
             <ContactUs />

@@ -1,13 +1,31 @@
+"use client";
+
 import React from 'react'
 import Image from 'next/image'
 import interior1 from '../../../public/images/app/interior/interior1.png'
 import interior2 from '../../../public/images/app/interior/interior2.png'
 import interior3 from '../../../public/images/app/interior/interior3.png'
 import { Headline } from './common_components'
+import { useStateContext } from '@/context/StateContext'
+import { client } from '../../../sanity/lib/client'
 
 
 
 const Interior = () => {
+  const {interiors, setInteriors} = useStateContext()
+  React.useEffect(() => {
+    const query = `*[_type == "interior"] {
+      img
+    }`
+
+    client
+      .fetch(query)
+      .then(data => {
+          setInteriors(data)
+          console.log(data)
+      })
+      .catch(error => console.error(error))
+  }, [])
   return (
     <div className='my-20 px-16'>
         <div className='bg-white rounded-[25px] shadow-lg py-5'>

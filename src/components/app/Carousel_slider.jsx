@@ -56,7 +56,7 @@ const Carousel_slider = () => {
               width={200}
               height={200}
               src={item.image_url}
-              className="w-full max-w-full h-[350px] md:h-[500px] m-auto rounded-[40px]"
+              className="w-fit max-w-full h-[350px] md:h-[500px] m-auto rounded-[40px]"
             />
           </div>
         ))}

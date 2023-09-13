@@ -1,6 +1,10 @@
+"use client";
+
 import React from 'react'
 import person1 from '../../../public/images/app/testimonials/person1.jpg'
 import Image from 'next/image'
+import {client} from '../../../sanity/lib/client'
+import { useStateContext } from '@/context/StateContext';
 
 const Card = ({person}) => {
     return(
@@ -17,18 +21,34 @@ const Card = ({person}) => {
 }
 
 const Testimonials = () => {
-    const people = [
-        {
-            name: "John Doe",
-            review: "As someone deeply connected to Kerala's maritime heritage, I was captivated by Inland Marine's dedication to preserving our traditions. Their Kettuvallams are a testament to the craftsmanship that defines our culture. I felt a sense of nostalgia and belonging as I cruised through the backwaters. Truly an authentic experience.",
-            profile: person1
-        },
-        {
-            name: "John Doe",
-            review: "As someone deeply connected to Kerala's maritime heritage, I was captivated by Inland Marine's dedication to preserving our traditions. Their Kettuvallams are a testament to the craftsmanship that defines our culture. I felt a sense of nostalgia and belonging as I cruised through the backwaters. Truly an authentic experience.",
-            profile: person1
-        }
-    ]
+    // const people = [
+    //     {
+    //         name: "John Doe",
+    //         review: "As someone deeply connected to Kerala's maritime heritage, I was captivated by Inland Marine's dedication to preserving our traditions. Their Kettuvallams are a testament to the craftsmanship that defines our culture. I felt a sense of nostalgia and belonging as I cruised through the backwaters. Truly an authentic experience.",
+    //         profile: person1
+    //     },
+    //     {
+    //         name: "John Doe",
+    //         review: "As someone deeply connected to Kerala's maritime heritage, I was captivated by Inland Marine's dedication to preserving our traditions. Their Kettuvallams are a testament to the craftsmanship that defines our culture. I felt a sense of nostalgia and belonging as I cruised through the backwaters. Truly an authentic experience.",
+    //         profile: person1
+    //     }
+    // ]
+    const {people, setPeople} = useStateContext()
+    React.useEffect(() => {
+        const query = `*[_type == "testimonials"] {
+            name,
+            review,
+            profile
+        }`
+
+        client
+            .fetch(query)
+            .then(data => {
+                setPeople(data)
+                console.log(data)
+            })
+            .catch(error => console.error(error))
+    }, [])
   return (
     <div className='my-20 md:px-16 px-10'>
         <div className='bg-[#1E3888] md:px-10 px-5 py-10 rounded-[35px]'>
@@ -41,6 +61,7 @@ const Testimonials = () => {
             </div>
             <div className='md:my-10 my-7 flex justify-center'>
                 <button className='bg-white rounded-[25px] px-7 py-3 poppins text-[#1E3888] font-bold text-center'>ADD A REVIEW</button>
+                {/* <button className='bg-white rounded-[25px] px-7 py-3 poppins text-[#1E3888] font-bold text-center flex'>ADD A REVIEW <Image src={"../../../svg/downArrow.svg"} className='text-black' width="50" height="50" /> </button> */}
             </div>
         </div>
     </div>
