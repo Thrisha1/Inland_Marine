@@ -12,10 +12,10 @@ const Interior = () => {
     <div className='my-20 px-16'>
         <div className='bg-white rounded-[25px] shadow-lg py-5'>
             <Headline text={"INTERIOR DESIGNS"} />
-            <div className='mt-16 flex justify-center'>
-                <Image src={interior1} alt="Interior 1" className='mr-5' width="450" height="300" />
-                <Image src={interior2} alt="Interior 1" className='mr-5' width="450" height="300" />
-                <Image src={interior3} alt="Interior 1" className='' width="450" height="300" />
+            <div className='mt-16 grid lg:grid-cols-3 gap-4 justify-center'>
+                <Image className="h-full" src={interior1} alt="Interior 1" width="450" height="300" />
+                <Image className="h-full" src={interior2} alt="Interior 1" width="450" height="300" />
+                <Image className="h-full" src={interior3} alt="Interior 1" width="450" height="300" />
                 {/* <Image src={interior2} alt="Interior 1" className='mr-5' width="450" height="300" /> */}
             </div>
             <div className='mt-20'>
