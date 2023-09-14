@@ -2,6 +2,7 @@
 import Image from "next/image"
 import { UisStar } from '@iconscout/react-unicons-solid'
 import React from 'react'
+import Link from 'next/link'
 
 const Popup = ({data, starArray}) => {
     return(
@@ -63,12 +64,10 @@ const Popup = ({data, starArray}) => {
 
 
 export const Card = ({data}) => {
-    const [showPop, setShowPop] = React.useState(false)
     const starArray = new Array(data.stars).fill(null) || null;
     return(
-        <div>
-            {showPop && data.type && <Popup data={data} starArray={starArray} />}
-            <div onClick={() => setShowPop(true)} className='mt-20 bg-white px-5 py-5 rounded-[20px]'>
+        <Link href="/designs/123">
+            <div className='mt-20 bg-white px-5 py-5 rounded-[20px]'>
                 <div className='md:flex grid grid-cols-1'>
                     <div className="">
                         <Image src={data.img} className="md:min-w-[450px] min-w-[100%] rounded-[15px]" alt="boat" width="450" height="350" />
@@ -93,6 +92,6 @@ export const Card = ({data}) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </Link>
     )
 }

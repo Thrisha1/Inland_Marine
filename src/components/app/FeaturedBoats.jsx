@@ -59,6 +59,7 @@ const FeaturedBoats = () => {
 
     React.useEffect(() => {
         const query = `*[_type == "featuredBoats"] {
+            _id,
             title,
             stars,
             type,
