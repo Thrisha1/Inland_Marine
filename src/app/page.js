@@ -4,7 +4,6 @@ import Interior from "../components/app/Interior"
 import CarouselSlider from "../components/app/Carousel_slider"
 import AboutUs from "@/components/app/AboutUs"
 import Testimonials from "@/components/app/Testimonials"
-// import SwiperFunction from "@/components/app/Swiper"
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
       <Interior />
       <AboutUs />
       <Testimonials />
-      {/* <SwiperFunction /> */}
     </div>
   )
 }
