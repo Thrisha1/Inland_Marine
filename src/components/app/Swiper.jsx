@@ -30,7 +30,22 @@ const SwiperFunction = () => {
             name: "John Tom",
             review: "As someone deeply connected to Kerala's maritime heritage, I was captivated by Inland Marine's dedication to preserving our traditions. Their Kettuvallams are a testament to the craftsmanship that defines our culture. I felt a sense of nostalgia and belonging as I cruised through the backwaters. Truly an authentic experience.",
             profile: person1
-        }
+        },
+        {
+            name: "John Tom",
+            review: "As someone deeply connected to Kerala's maritime heritage, I was captivated by Inland Marine's dedication to preserving our traditions. Their Kettuvallams are a testament to the craftsmanship that defines our culture. I felt a sense of nostalgia and belonging as I cruised through the backwaters. Truly an authentic experience.",
+            profile: person1
+        },
+        {
+            name: "John Tom",
+            review: "As someone deeply connected to Kerala's maritime heritage, I was captivated by Inland Marine's dedication to preserving our traditions. Their Kettuvallams are a testament to the craftsmanship that defines our culture. I felt a sense of nostalgia and belonging as I cruised through the backwaters. Truly an authentic experience.",
+            profile: person1
+        },
+        {
+            name: "John Tom",
+            review: "As someone deeply connected to Kerala's maritime heritage, I was captivated by Inland Marine's dedication to preserving our traditions. Their Kettuvallams are a testament to the craftsmanship that defines our culture. I felt a sense of nostalgia and belonging as I cruised through the backwaters. Truly an authentic experience.",
+            profile: person1
+        },
     ]
   return (
     <div className='my-20 md:px-16 px-10'>

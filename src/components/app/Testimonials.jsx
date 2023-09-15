@@ -5,6 +5,9 @@ import person1 from '../../../public/images/app/testimonials/person1.jpg'
 import Image from 'next/image'
 import {client} from '../../../sanity/lib/client'
 import { useStateContext } from '@/context/StateContext';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
 
 const Card = ({person}) => {
     return(
@@ -53,9 +56,23 @@ const Testimonials = () => {
     <div className='my-20 md:px-16 px-10'>
         <div className='bg-[#1E3888] md:px-10 px-5 py-10 rounded-[35px]'>
             <h1 className='text-3xl poppins font-bold text-center text-white'>TESTIMONIALS</h1>
-            <div className='my-10 grid md:grid-cols-2 grid-cols-1 gap-7'>
-                {people.map(person => <Card person={person} />)}
-            </div>
+            <Swiper
+            spaceBetween={10}
+            slidesPerView={2}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+            autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+            }}
+            pagination={{
+                clickable: true,
+            }}
+            navigation={true}
+            modules={[Autoplay, Pagination, Navigation]}
+            >
+                {people.map(person => <SwiperSlide><Card person={person} /></SwiperSlide>)}
+            </Swiper>
             <div className='my-16'>
                 <h4 className='text-lg poppins text-white text-center'>Discover What Others Are Saying About Their Unforgettable Inland Marine Journeys.</h4>
             </div>
