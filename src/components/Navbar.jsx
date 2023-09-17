@@ -88,7 +88,7 @@ export const Navbar = () => {
                         navbar ? "block" : "hidden"
                     }`}
                 >
-                    <ul className="items-center justify-evenly space-y-8 md:flex md:space-x-6 md:space-y-0">
+                    <ul className="flex md:flex-row flex-col items-center justify-center space-y-8 md:space-x-6 md:space-y-0">
                         {Navs.map(nav => <NavBtn name={nav.name} to={nav.to} path={path} />)}
                     </ul>
                 </div>
