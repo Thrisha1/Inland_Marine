@@ -16,6 +16,7 @@ import 'swiper/css';
 
 const Interior = () => {
   const {interiors, setInteriors} = useStateContext()
+  const [windowWidth, setWindowWidth] = React.useState(window.innerWidth);
   React.useEffect(() => {
     const query = `*[_type == "interior"] {
       img
@@ -36,7 +37,7 @@ const Interior = () => {
             <Swiper
             className='my-10'
             spaceBetween={10}
-            slidesPerView={window.innerWidth <= 600 ? 1 : 3}
+            slidesPerView={windowWidth <= 600 ? 1 : 3}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
             autoplay={{

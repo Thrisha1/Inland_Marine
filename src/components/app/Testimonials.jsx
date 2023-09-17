@@ -47,6 +47,7 @@ const Testimonials = () => {
     //     },
     // ]
     const {people, setPeople} = useStateContext()
+    const [windowWidth, setWindowWidth] = React.useState(window.innerWidth);
     React.useEffect(() => {
         const query = `*[_type == "testimonials"] {
             name,
@@ -69,7 +70,7 @@ const Testimonials = () => {
             <Swiper
             className='my-10'
             spaceBetween={10}
-            slidesPerView={window.innerWidth <= 600 ? 1 : 2}
+            slidesPerView={windowWidth <= 600 ? 1 : 2}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
             autoplay={{
