@@ -1,5 +1,5 @@
 "use client";
-import FeaturedBoats from "@/components/designs/featuredboats";
+import FeaturedBoats from "@/components/designs/FeaturedBoats";
 import InteriorDesigns from "@/components/designs/InteriorDesigns";
 import ContactUs from "@/components/designs/ContactUs";
 import React from 'react';
