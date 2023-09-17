@@ -63,7 +63,7 @@ const Testimonials = () => {
             .catch(error => console.error(error))
     }, [])
   return (
-    <div className='my-20 md:px-16 px-10'>
+    <div className='my-20 md:px-16 px-5'>
         <div className='bg-[#1E3888] md:px-10 px-5 py-10 rounded-[35px]'>
             <h1 className='text-3xl poppins font-bold text-center text-white'>TESTIMONIALS</h1>
             <Swiper

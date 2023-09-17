@@ -30,7 +30,7 @@ const Interior = () => {
       .catch(error => console.error(error))
   }, [])
   return (
-    <div className='my-20 px-16'>
+    <div className='my-20 md:px-16 px-5'>
         <div className='bg-white rounded-[25px] shadow-lg py-5'>
             <Headline text={"INTERIOR DESIGNS"} />
             <Swiper

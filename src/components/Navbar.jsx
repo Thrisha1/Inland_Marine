@@ -17,10 +17,6 @@ export const Navbar = () => {
         to: "/"
     },
     {
-        name: "About",
-        to: "/about"
-    },
-    {
         name: "Design",
         to: "/designs"
     },
@@ -89,7 +85,10 @@ export const Navbar = () => {
                     }`}
                 >
                     <ul className="items-center justify-evenly space-y-8 md:flex md:space-x-6 md:space-y-0">
-                        {Navs.map(nav => <NavBtn name={nav.name} to={nav.to} path={path} />)}
+                        {Navs.map(nav => <NavBtn setNavbar={setNavbar} name={nav.name} to={nav.to} path={path} />)}
+                        <Link onClick={() => setNavbar(false)} href="#about" className={`text-[#1E3888] cursor-pointer poppins font-bold rounded-[5px] text-center px-3 py-1 ${path === '/#about' ? "bg-[#1E3888] text-white" : "bg-[#F9F9F9] hover:bg-[#1E3888] hover:text-[#F9F9F9]"}`}>
+                            <p>About us</p>
+                        </Link>
                     </ul>
                 </div>
             </div>
