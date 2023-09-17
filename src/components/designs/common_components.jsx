@@ -66,11 +66,11 @@ const Popup = ({data, starArray}) => {
 export const Card = ({data}) => {
     const starArray = new Array(data.stars).fill(null) || null;
     return(
-        <Link href="/designs/123">
+        <Link href={`/designs/${data._id}`}>
             <div className='mt-20 bg-white shadow-lg px-5 py-5 rounded-[20px]'>
                 <div className='md:flex grid grid-cols-1'>
                     <div className="">
-                        <Image src={data.img} className="md:min-w-[450px] min-w-[100%] rounded-[15px]" alt="boat" width="450" height="350" />
+                        <Image src={data.imgUrl} className="md:min-w-[450px] min-w-[100%] rounded-[15px]" alt="boat" width="450" height="350" />
                         {data.type && <div className='flex relative bottom-[45px] left-[20px]'>
                             <div className={
                             data.type == "DELUXE" ? 'px-5 py-2 bg-[#00FFF9] rounded-[20px]' 

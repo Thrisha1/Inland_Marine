@@ -4,14 +4,15 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-      remotePatterns: [
-        {
-          protocol: 'https',
-          hostname: 'tailwindmix.b-cdn.net',
-          port: '',
-          pathname: '/**',
-        },
-      ],
+    domains: ["cdn.sanity.io"],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'tailwindmix.b-cdn.net',
+        port: '',
+        pathname: '/**',
+      },
+    ],
   },
 }
 

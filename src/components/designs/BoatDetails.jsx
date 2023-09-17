@@ -16,7 +16,7 @@ const BoatDetails = () => {
   return (
     <div className='md:px-16 px-5 md:py-20 py-16'>
         {boat && <div className="bg-white w-[100%] rounded-[15px] py-5 md:px-10 px-5">
-            <Image src={boat.img} width={"90%"} height={"100%"} className="w-[90%] h-[350px] flex m-auto rounded-[15px]"  alt="boat" />
+            <Image src={boat.imgUrl} width={"90%"} height={"100%"} className="w-[90%] h-[350px] flex m-auto rounded-[15px]"  alt="boat" />
             <div className="my-5">
                 <div className="flex justify-center my-5">
                     <h1 className='mt-3 md:mt-0 text-[#1E3888] sm:text-center poppins text-xl font-semibold'>{boat.title}</h1>  

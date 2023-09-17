@@ -82,7 +82,7 @@ const Testimonials = () => {
             navigation={true}
             modules={[Autoplay, Pagination, Navigation]}
             >
-                {people.map(person => <SwiperSlide><Card person={person} /></SwiperSlide>)}
+                {people && people.map(person => <SwiperSlide><Card person={person} /></SwiperSlide>)}
             </Swiper>
             <div className='my-16'>
                 <h4 className='text-lg poppins text-white text-center'>Discover What Others Are Saying About Their Unforgettable Inland Marine Journeys.</h4>
