@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react'
 import boat1 from '../../../public/images/app/featuredboats/boat1.png'
 import boat2 from '../../../public/images/app/featuredboats/boat1.png'
@@ -67,6 +69,7 @@ const FeaturedBoats = () => {
     const { boats, setBoats } = useStateContext()
 
     React.useEffect(() => {
+        console.log(boats.length)
         const query = `*[_type == "featuredBoats"] {
             _id,
             title,
@@ -82,8 +85,7 @@ const FeaturedBoats = () => {
             bookings,
             'imgUrl': img.asset->url
         }`
-        
-        if(boats == []){
+        if(boats.length == 0){
             client
                 .fetch(query)
                 .then(data => {
