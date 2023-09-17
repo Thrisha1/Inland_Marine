@@ -38,7 +38,7 @@ const Card = ({boat}) => {
     const starArray = new Array(boat.stars).fill(null);
     return(
         <div className='mx-auto rounded-[15px] shadow-md md:mb-0 mb-10'>
-            <Image src={boat.img} height="200" width="350" className='h-[200px] w-[350px] rounded-[15px]' alt="" />
+            <Image src={boat.imgUrl} height="200" width="350" className='h-[200px] w-[350px] rounded-[15px]' alt="" />
             <div className='flex relative bottom-[35px] left-[10px]'>
                 <div className='px-4 py-1 bg-white rounded-[15px]'>
                     <p className='text-center text-black font-semibold poppins text-sm'>Over {boat.bookings} bookings</p>
@@ -59,6 +59,7 @@ const FeaturedBoats = () => {
 
     React.useEffect(() => {
         const query = `*[_type == "featuredBoats"] {
+            _id,
             title,
             stars,
             type,
@@ -69,7 +70,8 @@ const FeaturedBoats = () => {
             dimensions,
             img,
             imgs,
-            bookings
+            bookings,
+            'imgUrl': img.asset->url
         }`
 
         client

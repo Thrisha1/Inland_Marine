@@ -9,19 +9,19 @@ const interiors = [
         title: "LOUNGE DECK",
         tag: "Waterside Elegance",
         desc: "Immerse yourself in the lap of luxury on our lounge deck, where the beauty of the backwaters meets unmatched comfort. Unwind in style, whether you're enjoying a book in the shade or basking in the warm sun. The lounge deck is a testament to our commitment to providing you with a space that transcends the ordinary, where you can create memories that linger with each ripple on the water.",
-        img: interior1
+        imgUrl: interior1
     },
     {
         title: "BEDROOM SUITE",
         tag: "Serene Retreat",
         desc: "Escape to a realm of tranquility in our elegantly appointed bedroom suites. The gentle lull of the water outside your window sets the stage for a peaceful slumber. Each suite is a harmonious blend of luxurious comfort and traditional aesthetics, offering you a haven to relax and rejuvenate. Whether you're gazing at the stars through the skylight or indulging in the plush bedding, every moment here is a step closer to serenity.",
-        img: interior2
+        imgUrl: interior2
     },
     {
         title: "KITCHEN",
         tag: "Culinary Haven",
         desc: "Discover a culinary sanctuary where the art of cooking merges seamlessly with the beauty of the backwaters. Our thoughtfully designed kitchen on board ensures that every meal prepared is a testament to both tradition and innovation. With state-of-the-art equipment and a team of skilled chefs, culinary delights come to life, inviting you to savor the flavors of Kerala's bounty in every bite.",
-        img: interior3
+        imgUrl: interior3
     }
 ]
 

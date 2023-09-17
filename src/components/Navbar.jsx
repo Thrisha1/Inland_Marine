@@ -34,10 +34,6 @@ export const Navbar = () => {
     },
   ]
 
-  React.useEffect(() => {
-    console.log(path)
-  }, [path])
-
     return (
         <nav className="w-full bg-[#F9F9F9] shadow">
             <div className="justify-between px-4 md:items-center md:flex md:pl-8">
