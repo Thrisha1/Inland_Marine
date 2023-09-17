@@ -1,6 +1,6 @@
 "use client";
 
-import React from 'react'
+import React,{ useState } from 'react'
 import Image from 'next/image'
 import interior1 from '../../../public/images/app/interior/interior1.png'
 import interior2 from '../../../public/images/app/interior/interior2.png'
@@ -37,7 +37,7 @@ const Interior = () => {
             <Swiper
             className='my-10'
             spaceBetween={10}
-            slidesPerView={windowWidth <= 600 ? 1 : 3}
+            slidesPerView={window.innerWidth <= 600 ? 1 : 3}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
             autoplay={{
