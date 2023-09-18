@@ -27,6 +27,7 @@ const BoatDetails = () => {
                     type,
                     tag,
                     desc,
+                    designs,
                     architecture,
                     engex,
                     dimensions,
