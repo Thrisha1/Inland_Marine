@@ -96,7 +96,7 @@ const FeaturedBoats = () => {
         }
     }, [])
   return (
-    <div className='mt-20'>
+    <div id="featuredboats" className='mt-20'>
         <Headline name="FEATURED BOATS" />
         <div className='my-20'>
             <Subline para="Each Kettuvallam is a masterpiece that echoes the artistry of Kerala's boat building legacy. Admire the intricate wooden work that adorns the exteriors, a tribute to the skilled hands that meticulously craft every detail. Step inside, and you'll find a world where tradition meets innovation, where hand-carved accents harmonize with contemporary amenities." />

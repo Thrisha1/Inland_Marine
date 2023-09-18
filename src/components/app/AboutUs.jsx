@@ -1,5 +1,6 @@
 import React from "react";
 import { Headline } from "./common_components";
+import Link from "next/link";
 
 const AboutUs = () => {
   return (
@@ -33,9 +34,9 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="my-10 flex justify-center">
-          <button className="bg-[#1E3888] text-white px-7 py-3 poppins font-bold rounded-[25px]">
+          <Link  href="/contact" className="bg-[#1E3888] text-white px-7 py-3 poppins font-bold rounded-[25px]">
             CONTACT US
-          </button>
+          </Link>
         </div>
       </div>
     </div>

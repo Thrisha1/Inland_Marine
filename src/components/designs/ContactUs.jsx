@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'  
 
 const ContactUs = () => {
   return (
@@ -8,7 +9,7 @@ const ContactUs = () => {
                 <h3 className='text-center text-white poppins text-xl'>Reach Out to Us Today and Let Your Waterborne Dreams Set Sail</h3>
                 <p className='poppins text-center text-white mt-10'>Whether you have inquiries about our Kettuvallams, want to discuss customization options, or simply wish to dive into the details of your upcoming voyage, we're excited to be your compass on this voyage of discovery.</p>
                 <div className='flex justify-center mt-10'>
-                    <button className='bg-white px-5 py-3 rounded-[20px] text-black poppins font-bold text-center'>CONTACT US</button>
+                    <Link href="/contact" className='bg-white px-5 py-3 rounded-[20px] text-black poppins font-bold text-center'>CONTACT US</Link>
                 </div>
             </div>
         </div>

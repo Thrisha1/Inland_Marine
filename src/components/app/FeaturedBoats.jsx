@@ -11,6 +11,7 @@ import { faRightLong } from "@fortawesome/free-solid-svg-icons";
 import { Headline } from "./common_components";
 import { client } from "../../../sanity/lib/client";
 import { useStateContext } from "@/context/StateContext";
+import Link from "next/link";
 
 const Card = ({ boat }) => {
   const starArray = new Array(boat.stars).fill(null);
@@ -74,7 +75,7 @@ const FeaturedBoats = () => {
   }, []);
 
   return (
-    <div>
+    <div  id="featuredboats">
       <Headline text={"FEATURED BOATS"} />
       <div className="px-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-5 mt-10 justify-center items-center">
         {boats.map((boat) => (
@@ -82,10 +83,10 @@ const FeaturedBoats = () => {
         ))}
       </div>
       <div className="mt-16">
-        <h3 className="text-lg text-center text-[#170312CC] font-semibold flex justify-center">
+        <Link href="/designs" className="text-lg text-center text-[#170312CC] font-semibold flex justify-center">
           VIEW ALL{" "}
           <FontAwesomeIcon className="w-[10px] ml-2" icon={faRightLong} />
-        </h3>
+        </Link>
         <p className="poppins text-[#0b0b0b] text-center mt-10 md:px-20 px-10">
           Each Kettuvallam is a masterpiece that echoes the artistry of Kerala's
           boat building legacy. Admire the intricate wooden work that adorns the

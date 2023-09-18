@@ -28,7 +28,7 @@ const interiors = [
 
 const InteriorDesigns = () => {
   return (
-    <div className='mt-20'>
+    <div id="interiors" className='mt-20'>
         <h1 className='text-3xl !font-[900] poppins text-center text-[#1E3888]'>INTERIOR DESIGNS</h1>
         <div className='my-20'>
             <p className='text-[#0B0B0B] poppins md:px-20 px-5 text-center'>From the culinary haven of our kitchens, where the aroma of Kerala's flavors fills the air, to the serene retreats of our bedroom suites that cradle you in tranquility, every detail has been thoughtfully designed to transport you to a realm of unparalleled luxury. Our lounge decks are poised as waterside sanctuaries, where you can unwind amidst the gentle ripples and embrace the allure of the backwaters</p>

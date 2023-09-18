@@ -29,7 +29,7 @@ const Interior = () => {
   }, []);
 
   return (
-    <div className="my-20 px-16">
+    <div className="my-20 px-6 lg:px-16">
       <div className="bg-white rounded-[25px] shadow-lg py-5">
         <Headline text={"INTERIOR DESIGNS"} />
         <Swiper
