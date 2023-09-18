@@ -33,7 +33,8 @@ const BoatDetails = () => {
                     img,
                     imgs,
                     bookings,
-                    'imgUrl': img.asset->url
+                    'imgUrl': img.asset->url,
+                    'imgUrls': imgs[].asset->url
                 }`
                 client
                 .fetch(query, { id })
@@ -96,7 +97,7 @@ const BoatDetails = () => {
                         <p className="poppins mt-5">{boat.engex}</p>
                     </div>
                     <div className="my-10 grid grid-cols-4 gap-5">
-                        {boat.imgs?.map(img => <Image src={img} className="mb-3 w-[100%] h-[200px]" width="100%" height="150" />)}
+                        {boat.imgUrls?.map(img => <Image src={img} className="mb-3 w-[100%] h-[200px]" width="150" height="200" />)}
                     </div>
                 </div>
             </div>
