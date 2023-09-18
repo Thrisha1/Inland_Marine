@@ -7,7 +7,7 @@ const Card = ({name, l1, l2, l3, icon, btn}) => {
     return(
         <div className='bg-[#1E3888] px-5 py-7 rounded-[20px]'>
             <div className=''>
-                <FontAwesomeIcon icon={icon} className='text-white w-[20%] flex m-auto' />
+                <FontAwesomeIcon icon={icon} className='text-white text-[50px] flex m-auto' />
                 <h1 className='my-5 poppins font-bold text-white text-center text-3xl'>{name}</h1>
                 <p className='my-5 text-white poppins font-semibold text-center text-lg'>{l1}</p>
                 <p className='text-center text-white poppins'>{l2}</p>
@@ -29,7 +29,7 @@ const TopHalf = () => {
             name: "PHONE",
             l1: "Direct Line to Adventure",
             l2: "Connect with our dedicated team to discuss your voyage:",
-            l3: "+91-XX-XXXXXXX",
+            l3: "+91 79941 82323",
             icon: faPhone,
             btn: "CALL"
         },
