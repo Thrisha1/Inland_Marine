@@ -40,7 +40,7 @@ const TopHalf = () => {
             <Subline para="At inland we specialize in turning your waterborne dreams into reality through two distinct offerings:" />
         </div>
         <div className='my-20'>
-            <div className='grid md:grid-cols-2 grid-cols-1 md:px-40 px-5 gap-10'>
+            <div className='grid lg:grid-cols-2 grid-cols-1 md:px-40 px-5 gap-10'>
                 {Cards.map(card => <Card name={card.name} desc={card.desc} img={card.img} />)}
             </div>
         </div>

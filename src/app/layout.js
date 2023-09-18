@@ -16,6 +16,11 @@ export const metadata = {
 export default function RootLayout({children}) {
     return (
         <html lang="en">
+            <head>
+                {/* meta tag for view port */}
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                {/* meta tag for description */}
+            </head>
             <body>
                 <StateProvider>
                     <Navbar/>

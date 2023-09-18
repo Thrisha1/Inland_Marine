@@ -68,8 +68,8 @@ export const Card = ({data}) => {
     return(
         <Link href={`/designs/${data._id}`}>
             <div className='mt-20 bg-white shadow-lg px-5 py-5 rounded-[20px]'>
-                <div className='md:flex grid grid-cols-1'>
-                    <div className="">
+                <div className='lg:flex grid grid-cols-1 justify-center'>
+                    <div className="flex flex-col justify-center items-center">
                         <Image src={data.imgUrl} className="md:min-w-[450px] min-w-[100%] rounded-[15px]" alt="boat" width="450" height="350" />
                         {data.type && <div className='flex relative bottom-[45px] left-[20px]'>
                             <div className={

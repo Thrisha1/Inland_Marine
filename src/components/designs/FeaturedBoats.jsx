@@ -101,7 +101,7 @@ const FeaturedBoats = () => {
         <div className='my-20'>
             <Subline para="Each Kettuvallam is a masterpiece that echoes the artistry of Kerala's boat building legacy. Admire the intricate wooden work that adorns the exteriors, a tribute to the skilled hands that meticulously craft every detail. Step inside, and you'll find a world where tradition meets innovation, where hand-carved accents harmonize with contemporary amenities." />
         </div>
-        <div className='md:px-20 px-5'>
+        <div className='lg:px-20 px-5'>
             <div className='grid grid-cols-1'>
                 {boats && boats.map(boat => <Card data = {boat} />)}
             </div>

@@ -12,7 +12,7 @@ export default function Home() {
       <FeaturedBoats />
       <Interior />
       <AboutUs />
-      <Testimonials />
+      {/* <Testimonials /> */} 
     </div>
   )
 }

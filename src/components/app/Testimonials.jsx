@@ -49,7 +49,6 @@ const Testimonials = () => {
       })
       .catch((error) => console.error(error));
   }, []);
-  const slidesPerView = typeof window !== 'undefined' && window.innerWidth <= 600 ? 1 : 3;
   return (
     <div className="my-20 md:px-16 px-10">
       <div className="bg-[#1E3888] md:px-10 px-5 py-10 rounded-[35px]">
@@ -58,8 +57,16 @@ const Testimonials = () => {
         </h1>
         <Swiper
           className="my-10"
-          spaceBetween={10}
-          slidesPerView={slidesPerView}
+          breakpoints={{
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 10,
+            }
+          }}
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
           autoplay={{
