@@ -1,7 +1,7 @@
 import React from 'react'
-import interior1 from '../../../public/images/designs/interior/interior1.png'
-import interior2 from '../../../public/images/designs/interior/interior2.png'
-import interior3 from '../../../public/images/designs/interior/interior3.png'
+import interior1 from '../../../public/images/app/interior/interior1.png'
+import interior2 from '../../../public/images/app/interior/interior2.png'
+import interior3 from '../../../public/images/app/interior/interior3.png'
 import { Card } from './common_components'
 
 const interiors = [
