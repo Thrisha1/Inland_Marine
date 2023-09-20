@@ -36,11 +36,11 @@ const Card = ({ boat }) => {
           ))}
         </div>
       </div>
-      <div className="pb-5">
+      {/* <div className="pb-5">
         <p className="text-center font-semibold text-lg text-[#1E3888] my-auto">
           {boat.title}
         </p>
-      </div>
+      </div> */}
     </Link>
   );
 };

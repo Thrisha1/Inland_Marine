@@ -133,9 +133,9 @@ export const Card = ({ data }) => {
             </div>
           </div>
           <div className="md:px-10 px-5">
-            <h1 className="mt-3 md:mt-0 text-[#1E3888] sm:text-center poppins text-xl font-semibold">
+            {/* <h1 className="mt-3 md:mt-0 text-[#1E3888] sm:text-center poppins text-xl font-semibold">
               {data.title}
-            </h1>
+            </h1> */}
             <p className="mt-10 font-semibold poppins ">{data.tag}</p>
             <p className="mt-5 poppins">{data.desc}</p>
             <button
