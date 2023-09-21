@@ -22,7 +22,7 @@ export const Navbar = () => {
     },
     {
       name: "About",
-      to: "#about",
+      to: "/#about",
     },
     {
       name: "Design",
