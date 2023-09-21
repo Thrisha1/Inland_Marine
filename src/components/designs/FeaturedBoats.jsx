@@ -95,6 +95,10 @@ const FeaturedBoats = () => {
                 .catch(error => console.error(error))
         }
     }, [])
+
+    React.useEffect(() => {
+        console.log(boats)
+    }, [boats])
   return (
     <div id="featuredboats" className='mt-20'>
         <Headline name="FEATURED BOATS" />

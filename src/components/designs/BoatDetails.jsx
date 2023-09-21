@@ -17,8 +17,8 @@ const BoatDetails = () => {
 
     React.useEffect(() => {
         const id = path.split('/').pop()
-        const filteredBoat = boats.find(boat => boat._id == id)
-        if(filteredBoat){
+        if(boats.length == 0){
+            console.log('yes', id)
             if(path){
                 const query = `*[_type == "featuredBoats" && _id == $id] {
                     _id,
@@ -27,31 +27,34 @@ const BoatDetails = () => {
                     type,
                     tag,
                     desc,
+                    designs,
                     architecture,
                     engex,
                     dimensions,
                     img,
                     imgs,
                     bookings,
-                    'imgUrl': img.asset->url
+                    'imgUrl': img.asset->url,
+                    'imgUrls': imgs[].asset->url
                 }`
                 client
-                    .fetch(query, { id })
-                    .then(data => {
-                        setBoat(data)
-                        console.log(data)
-                    })
-                    .catch(error => console.error(error))
+                .fetch(query, { id })
+                .then(data => {
+                    setBoat(data[0])
+                    console.log(data)
+                })
+                .catch(error => console.error(error))
             }
         }else{
+            const filteredBoat = boats.find(boat => boat._id == id)
             setBoat(filteredBoat)
         }
-    }, [])
+    }, [path])
     const starArray = boat && new Array(boat.stars).fill(null) || null;
   return (
     <div className='md:px-16 px-5 md:py-20 py-16'>
         {boat && <div className="bg-white w-[100%] rounded-[15px] py-5 md:px-10 px-5">
-            <Image src={boat.imgUrl} width={"90%"} height={"100%"} className="w-[90%] h-[350px] flex m-auto rounded-[15px]"  alt="boat" />
+            <Image src={boat.imgUrl} width="500" height="350" className="w-[90%] h-[350px] flex m-auto rounded-[15px]"  alt="boat" />
             <div className="my-5">
                 <div className="flex justify-center my-5">
                     <h1 className='mt-3 md:mt-0 text-[#1E3888] sm:text-center poppins text-xl font-semibold'>{boat.title}</h1>  
@@ -95,7 +98,7 @@ const BoatDetails = () => {
                         <p className="poppins mt-5">{boat.engex}</p>
                     </div>
                     <div className="my-10 grid grid-cols-4 gap-5">
-                        {boat.imgs?.map(img => <Image src={img} className="mb-3 w-[100%] h-[200px]" width="100%" height="150" />)}
+                        {boat.imgUrls?.map(img => <Image src={img} className="mb-3 w-[100%] h-[200px]" width="150" height="200" />)}
                     </div>
                 </div>
             </div>

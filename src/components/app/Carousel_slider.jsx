@@ -62,7 +62,7 @@ const Carousel_slider = () => {
           </div>
         ))}
       </Carousel>
-      <div className="flex flex-col justify-center relative bottom-[95px] md:bottom-[85px] z-10">
+      <div className="flex flex-col justify-center relative bottom-[100px] md:bottom-[85px] z-10">
         <h3 className="text-center text-white poppins font-bold mb-5 text-lg sm:text-xl md:text-2xl">Embark on our Jounrey with Our Traditional Creations</h3>
         <Link href="#featuredboats" className="bg-[#1E3888] flex m-auto text-white rounded-[30px] px-10 py-2 md:py-3 poppins border-4 border-white font-bold">EXPLORE</Link>
       </div>

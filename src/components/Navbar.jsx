@@ -96,7 +96,7 @@ export const Navbar = () => {
         >
           <ul className="flex md:flex-row md:self-end flex-col items-center justify-end space-y-8 md:space-x-6 md:space-y-0">
             {Navs.map((nav) => (
-              <NavBtn navReducer={navReducer} name={nav.name} to={nav.to} path={path} />
+              <NavBtn setNavbar={setNavbar} name={nav.name} to={nav.to} path={path} />
             ))}
           </ul>
         </div>

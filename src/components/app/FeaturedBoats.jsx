@@ -16,7 +16,7 @@ import Link from "next/link";
 const Card = ({ boat }) => {
   const starArray = new Array(boat.stars).fill(null);
   return (
-    <div className="mx-auto rounded-[15px] shadow-md md:mb-0 mb-10">
+    <Link href={`/designs/${boat._id}`} className="mx-auto rounded-[15px] shadow-md md:mb-0 mb-10">
       <Image
         src={boat.imgUrl}
         height="200"
@@ -36,12 +36,12 @@ const Card = ({ boat }) => {
           ))}
         </div>
       </div>
-      <div className="pb-5">
+      {/* <div className="pb-5">
         <p className="text-center font-semibold text-lg text-[#1E3888] my-auto">
           {boat.title}
         </p>
-      </div>
-    </div>
+      </div> */}
+    </Link>
   );
 };
 
