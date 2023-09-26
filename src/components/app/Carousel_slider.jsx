@@ -54,10 +54,10 @@ const Carousel_slider = () => {
         {PropertyImages?.map((item) => (
           <div>
             <Image
-              width={200}
-              height={200}
-              src={item.image_url}
-              className="w-fit max-w-full h-[350px] md:h-[500px] m-auto rounded-[40px]"
+            width={1000}
+            height={1000}
+            src={item.image_url}
+            className="w-fit max-w-full h-[350px] md:h-[500px] m-auto rounded-[40px]"
             />
           </div>
         ))}
