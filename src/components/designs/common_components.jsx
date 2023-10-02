@@ -100,7 +100,7 @@ export const Card = ({ data }) => {
             <div className="flex flex-col">
               <Image
                 src={data.imgUrl}
-                className="md:min-w-[450px] min-w-[100%] rounded-[15px]"
+                className="md:min-w-[450px] h-[300px] min-w-[100%] rounded-[15px]"
                 alt="boat"
                 width="450"
                 height="350"
@@ -112,7 +112,7 @@ export const Card = ({ data }) => {
               {data.title}
             </h1> */}
             <p className="mt-10 font-semibold poppins ">{data.tag}</p>
-            <p className="mt-5 poppins">{data.desc}</p>
+            <p className="mt-5 poppins">{data.desc.substring(0,350)}...</p>
             <button
               className="mt-16 bg-[#1E3888] text-white text-center px-4 py-2 rounded-[20px]"
             >
