@@ -42,9 +42,9 @@ const Interior = () => {
             768: {
               slidesPerView: 2,
               spaceBetween: 10,
-            },
+            },  
             1024: {
-              slidesPerView: 3,
+              slidesPerView: 5,
               spaceBetween: 10,
             },
           }}
