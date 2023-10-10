@@ -105,31 +105,6 @@ export const Card = ({ data }) => {
                 width="450"
                 height="350"
               />
-              {data.type && (
-                <div className="flex relative bottom-[45px] left-[20px]">
-                  <div
-                    className={
-                      data.type == "DELUXE"
-                        ? "px-5 py-2 bg-[#00FFF9] rounded-[20px]"
-                        : data.type == "LUXURY"
-                        ? "px-5 py-2 bg-[#FFD600] rounded-[20px]"
-                        : data.type == "PREMIUM"
-                        ? "px-5 py-2 bg-[#20FF79] rounded-[20px]"
-                        : "px-5 py-2 bg-white rounded-[20px]"
-                    }
-                  >
-                    <p className="text-center text-black font-semibold poppins text-sm">
-                      {data.type}
-                    </p>
-                  </div>
-                  <div className="flex ml-5 items-center">
-                    {starArray &&
-                      starArray.map((_, i) => (
-                        <UisStar key={i} className="text-white h-[20px]" />
-                      ))}
-                  </div>
-                </div>
-              )}
             </div>
           </div>
           <div className="md:px-10 px-5">

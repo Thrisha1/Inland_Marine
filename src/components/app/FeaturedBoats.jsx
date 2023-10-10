@@ -24,23 +24,6 @@ const Card = ({ boat }) => {
         className="h-[200px] w-[350px] rounded-[15px]"
         alt=""
       />
-      <div className="flex relative bottom-[35px] left-[10px]">
-        <div className="px-4 py-1 bg-white rounded-[15px]">
-          <p className="text-center text-black font-semibold poppins text-sm">
-            Over {boat.bookings} bookings
-          </p>
-        </div>
-        <div className="flex ml-2 items-center">
-          {starArray.map((_, i) => (
-            <UisStar key={i} className="text-white h-[20px]" />
-          ))}
-        </div>
-      </div>
-      {/* <div className="pb-5">
-        <p className="text-center font-semibold text-lg text-[#1E3888] my-auto">
-          {boat.title}
-        </p>
-      </div> */}
     </Link>
   );
 };
