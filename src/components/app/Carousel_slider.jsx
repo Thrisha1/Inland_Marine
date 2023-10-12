@@ -16,6 +16,9 @@ const PropertyImages = [
   {
     image_url: "/images/app/featuredboats/boat3.png",
   },
+  {
+    image_url: "/images/pic5.jpeg",
+  }
 ];
 
 const Carousel_slider = () => {

@@ -1,13 +1,13 @@
 import React from 'react'
 import { Headline ,Subline} from '../common_components/common_components.jsx'
 import boat1 from '../../../public/images/app/featuredboats/boat1.png'
-import boat2 from '../../../public/images/app/featuredboats/boat2.png'
+import boat2 from '../../../public/images/pic5.jpeg'
 import Image from 'next/image'
 
 const Card = ({name, desc, img}) => {
     return(
         <div className='bg-white shadow-lg px-5 py-5 rounded-[15px]'>
-            <Image src={img} width="250" heigh="250" className='w-[100%] h-[320px] rounded-[15px]' />
+            <Image src={img} width="540" height="320" className='w-[100%] h-[250px] md:h-[320px] rounded-[15px]' />
             <div className='mt-10'>
                 <h2 className='text-center text-[#1E3888] poppins font-bold text-lg'>{name}</h2>
                 <p className='text-[#1E3888] poppins text-center mt-12'>{desc}</p>
