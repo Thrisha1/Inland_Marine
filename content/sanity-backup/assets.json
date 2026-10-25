@@ -1,0 +1,175 @@
+[
+  {
+    "assetId": "image-049664aac7482fcb9c3f0f5afb4225aba0892b85-1087x720-jpg",
+    "originalFilename": "boat1.png",
+    "extension": "jpg",
+    "mimeType": "image/jpeg",
+    "width": 1087,
+    "height": 720,
+    "sizeBytes": 242234,
+    "sanityUrl": "https://cdn.sanity.io/images/kb8cnfcp/production/049664aac7482fcb9c3f0f5afb4225aba0892b85-1087x720.jpg",
+    "savedTo": [
+      "/images/content/unused/boat1-1087x720.jpg"
+    ],
+    "referencedByDocument": true
+  },
+  {
+    "assetId": "image-2767446323a3b29bdfe847f7a9b5e8e926cfa7c1-963x1280-jpg",
+    "originalFilename": "pic4.jpeg",
+    "extension": "jpg",
+    "mimeType": "image/jpeg",
+    "width": 963,
+    "height": 1280,
+    "sizeBytes": 85068,
+    "sanityUrl": "https://cdn.sanity.io/images/kb8cnfcp/production/2767446323a3b29bdfe847f7a9b5e8e926cfa7c1-963x1280.jpg",
+    "savedTo": [
+      "/images/content/boats/jct-houseboat-alleppey/gallery/03.jpg",
+      "/images/content/boats/spice-coast-cruises-alleppey/gallery/03.jpg"
+    ],
+    "referencedByDocument": true
+  },
+  {
+    "assetId": "image-2e7952684c7eb39b1e8c1ac367bf260ee327ded6-5873x3915-jpg",
+    "originalFilename": "boat1.png",
+    "extension": "jpg",
+    "mimeType": "image/jpeg",
+    "width": 5873,
+    "height": 3915,
+    "sizeBytes": 4211683,
+    "sanityUrl": "https://cdn.sanity.io/images/kb8cnfcp/production/2e7952684c7eb39b1e8c1ac367bf260ee327ded6-5873x3915.jpg",
+    "savedTo": [
+      "/images/content/boats/marari-houseboat-mararikulam/gallery/01.jpg"
+    ],
+    "referencedByDocument": true
+  },
+  {
+    "assetId": "image-3518a4c9510b8466af5df9384f8e18b9866ed484-4348x2880-png",
+    "originalFilename": "boat1.png",
+    "extension": "png",
+    "mimeType": "image/png",
+    "width": 4348,
+    "height": 2880,
+    "sizeBytes": 19896021,
+    "sanityUrl": "https://cdn.sanity.io/images/kb8cnfcp/production/3518a4c9510b8466af5df9384f8e18b9866ed484-4348x2880.png",
+    "savedTo": [
+      "/images/content/boats/jct-houseboat-alleppey/main.jpg"
+    ],
+    "referencedByDocument": true
+  },
+  {
+    "assetId": "image-417031f8c38823d0a5f86a3416ff418d12f8ea1c-752x1000-jpg",
+    "originalFilename": "pic6.jpeg",
+    "extension": "jpg",
+    "mimeType": "image/jpeg",
+    "width": 752,
+    "height": 1000,
+    "sizeBytes": 123307,
+    "sanityUrl": "https://cdn.sanity.io/images/kb8cnfcp/production/417031f8c38823d0a5f86a3416ff418d12f8ea1c-752x1000.jpg",
+    "savedTo": [
+      "/images/content/boats/jct-houseboat-alleppey/gallery/05.jpg",
+      "/images/content/boats/spice-coast-cruises-alleppey/gallery/05.jpg"
+    ],
+    "referencedByDocument": true
+  },
+  {
+    "assetId": "image-42b2698f371ba1cae505779f461726d6685d1ae4-735x403-jpg",
+    "originalFilename": "boat2.png",
+    "extension": "jpg",
+    "mimeType": "image/jpeg",
+    "width": 735,
+    "height": 403,
+    "sizeBytes": 53555,
+    "sanityUrl": "https://cdn.sanity.io/images/kb8cnfcp/production/42b2698f371ba1cae505779f461726d6685d1ae4-735x403.jpg",
+    "savedTo": [
+      "/images/content/boats/marari-houseboat-mararikulam/main.jpg"
+    ],
+    "referencedByDocument": true
+  },
+  {
+    "assetId": "image-76c56dfa07bce124785552e3a84f7846594cfdd6-1280x963-jpg",
+    "originalFilename": "pic1.jpeg",
+    "extension": "jpg",
+    "mimeType": "image/jpeg",
+    "width": 1280,
+    "height": 963,
+    "sizeBytes": 112281,
+    "sanityUrl": "https://cdn.sanity.io/images/kb8cnfcp/production/76c56dfa07bce124785552e3a84f7846594cfdd6-1280x963.jpg",
+    "savedTo": [
+      "/images/content/boats/jct-houseboat-alleppey/gallery/01.jpg",
+      "/images/content/boats/spice-coast-cruises-alleppey/gallery/01.jpg"
+    ],
+    "referencedByDocument": true
+  },
+  {
+    "assetId": "image-a5c66651e7df9228b4637a4c52f6ef443f900935-640x427-jpg",
+    "originalFilename": "boat2.png",
+    "extension": "jpg",
+    "mimeType": "image/jpeg",
+    "width": 640,
+    "height": 427,
+    "sizeBytes": 84897,
+    "sanityUrl": "https://cdn.sanity.io/images/kb8cnfcp/production/a5c66651e7df9228b4637a4c52f6ef443f900935-640x427.jpg",
+    "savedTo": [
+      "/images/content/boats/marari-houseboat-mararikulam/gallery/02.jpg"
+    ],
+    "referencedByDocument": true
+  },
+  {
+    "assetId": "image-a62fab53d84032a71a62dc4e4922968d966e231b-1280x963-jpg",
+    "originalFilename": "pic2.jpeg",
+    "extension": "jpg",
+    "mimeType": "image/jpeg",
+    "width": 1280,
+    "height": 963,
+    "sizeBytes": 107481,
+    "sanityUrl": "https://cdn.sanity.io/images/kb8cnfcp/production/a62fab53d84032a71a62dc4e4922968d966e231b-1280x963.jpg",
+    "savedTo": [
+      "/images/content/unused/pic2-1280x963.jpg"
+    ],
+    "referencedByDocument": true
+  },
+  {
+    "assetId": "image-cc0858b3d02395db61a481ba762dd16a8c229545-1280x963-jpg",
+    "originalFilename": "pic5.jpeg",
+    "extension": "jpg",
+    "mimeType": "image/jpeg",
+    "width": 1280,
+    "height": 963,
+    "sizeBytes": 248020,
+    "sanityUrl": "https://cdn.sanity.io/images/kb8cnfcp/production/cc0858b3d02395db61a481ba762dd16a8c229545-1280x963.jpg",
+    "savedTo": [
+      "/images/content/boats/jct-houseboat-alleppey/gallery/04.jpg",
+      "/images/content/boats/spice-coast-cruises-alleppey/gallery/04.jpg"
+    ],
+    "referencedByDocument": true
+  },
+  {
+    "assetId": "image-dfa6ec08af995eba8705dce5dbf019160f7b659d-963x1280-jpg",
+    "originalFilename": "pic3.jpeg",
+    "extension": "jpg",
+    "mimeType": "image/jpeg",
+    "width": 963,
+    "height": 1280,
+    "sizeBytes": 118781,
+    "sanityUrl": "https://cdn.sanity.io/images/kb8cnfcp/production/dfa6ec08af995eba8705dce5dbf019160f7b659d-963x1280.jpg",
+    "savedTo": [
+      "/images/content/boats/jct-houseboat-alleppey/gallery/02.jpg",
+      "/images/content/boats/spice-coast-cruises-alleppey/gallery/02.jpg"
+    ],
+    "referencedByDocument": true
+  },
+  {
+    "assetId": "image-fbb3feeb5416e2053f8bbc32a609b4cce4b02b02-1280x960-jpg",
+    "originalFilename": "boat3.png",
+    "extension": "jpg",
+    "mimeType": "image/jpeg",
+    "width": 1280,
+    "height": 960,
+    "sizeBytes": 136396,
+    "sanityUrl": "https://cdn.sanity.io/images/kb8cnfcp/production/fbb3feeb5416e2053f8bbc32a609b4cce4b02b02-1280x960.jpg",
+    "savedTo": [
+      "/images/content/boats/spice-coast-cruises-alleppey/main.jpg"
+    ],
+    "referencedByDocument": true
+  }
+]

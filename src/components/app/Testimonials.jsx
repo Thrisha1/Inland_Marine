@@ -1,10 +1,8 @@
 "use client";
 
 import React from "react";
-import person1 from "../../../public/images/app/testimonials/person1.jpg";
 import Image from "next/image";
-import { client } from "../../../sanity/lib/client";
-import { useStateContext } from "@/context/StateContext";
+import { testimonials } from "@/lib/content";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
@@ -18,6 +16,7 @@ const Card = ({ person }) => {
           width="150"
           height="150"
           className="md:col-span-1 w-[150px] h-[150px] rounded-[50%] flex m-auto"
+          alt={person.name}
         />
         <div className="md:ml-5 md:col-span-3">
           <h1 className="text-lg poppins font-bold text-black md:text-left text-center">
@@ -33,22 +32,8 @@ const Card = ({ person }) => {
 };
 
 const Testimonials = () => {
-  const { people, setPeople } = useStateContext();
-  React.useEffect(() => {
-    const query = `*[_type == "testimonials"] {
-            name,
-            review,
-            profile
-        }`;
+  const people = testimonials;
 
-    client
-      .fetch(query)
-      .then((data) => {
-        setPeople(data);
-        console.log(data);
-      })
-      .catch((error) => console.error(error));
-  }, []);
   return (
     <div className="my-20 md:px-16 px-10">
       <div className="bg-[#1E3888] md:px-10 px-5 py-10 rounded-[35px]">
@@ -67,8 +52,6 @@ const Testimonials = () => {
               spaceBetween: 10,
             }
           }}
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -81,7 +64,7 @@ const Testimonials = () => {
         >
           {people &&
             people.map((person) => (
-              <SwiperSlide>
+              <SwiperSlide key={person.id}>
                 <Card person={person} />
               </SwiperSlide>
             ))}
@@ -96,7 +79,6 @@ const Testimonials = () => {
           <button className="bg-white rounded-[25px] px-7 py-3 poppins text-[#1E3888] font-bold text-center">
             ADD A REVIEW
           </button>
-          {/* <button className='bg-white rounded-[25px] px-7 py-3 poppins text-[#1E3888] font-bold text-center flex'>ADD A REVIEW <Image src={"../../../svg/downArrow.svg"} className='text-black' width="50" height="50" /> </button> */}
         </div>
       </div>
     </div>

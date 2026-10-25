@@ -1,10 +1,22 @@
 import React from 'react';
+import { notFound } from 'next/navigation';
 import BoatDetails from '@/components/designs/BoatDetails'
+import { getBoat, getBoats } from '@/lib/content'
 
-export default function Details(){
+export function generateStaticParams(){
+    return getBoats().map((boat) => ({ id: boat.slug }))
+}
+
+export default function Details({ params }){
+    const boat = getBoat(params.id)
+
+    if(!boat){
+        notFound()
+    }
+
     return(
         <div>
-            <BoatDetails />
+            <BoatDetails boat={boat} />
         </div>
     )
 }

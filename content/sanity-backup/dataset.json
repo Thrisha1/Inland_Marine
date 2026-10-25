@@ -1,0 +1,1205 @@
+[
+  {
+    "_createdAt": "2023-09-17T06:17:46Z",
+    "_id": "1210b784-aa25-4473-aa74-d602c3bb8f67",
+    "_rev": "d7tc5MqMIOwngMddr2lMM0",
+    "_type": "featuredBoats",
+    "_updatedAt": "2023-09-18T07:03:20Z",
+    "architecture": "The architecture seamlessly marries tradition with innovation. The spacious lounge deck boasts a unique blend of open-air relaxation and sheltered comfort. Inside, the interiors exude an air of sophistication, with polished wood finishes, large windows that frame panoramic views, and an ingenious layout that maximizes space and functionality.",
+    "bookings": 30,
+    "desc": "Nestled in the heart of Mararikulam, this vessel beckons you to discover the perfect fusion of serene landscapes and opulent living. Step onto the Marari Houseboat and feel the gentle embrace of the waterways. The exterior boasts intricate designs inspired by Kerala's rich heritage, a testament to the artistry that runs in the region's veins. Inside, a world of sophistication unfolds.",
+    "designs": "The 'JCT Houseboat, Alleppey' is a visual symphony, characterized by its sleek lines and intricate wooden embellishments. From the ornate carvings that adorn the exterior to the harmonious color palette inspired by the surrounding nature, this houseboat is a true embodiment of artistry afloat.",
+    "dimensions": {
+      "length": 35,
+      "width": 6
+    },
+    "engex": "Built with unwavering precision, the 'JCT Houseboat, Alleppey' features state-of-the-art engineering that ensures smooth navigation and unparalleled stability on the water. The hull's design optimizes hydrodynamics, guaranteeing an effortless and serene voyage.",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-42b2698f371ba1cae505779f461726d6685d1ae4-735x403-jpg",
+        "_type": "reference"
+      }
+    },
+    "imgs": [
+      {
+        "_key": "dc7c785edc01",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-2e7952684c7eb39b1e8c1ac367bf260ee327ded6-5873x3915-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "a669be913a33d10f062f5339e0574075",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-2e7952684c7eb39b1e8c1ac367bf260ee327ded6-5873x3915-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "dcaed90fde14a06cf83d6d159c08a3a7",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-2e7952684c7eb39b1e8c1ac367bf260ee327ded6-5873x3915-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "668dbdf78df3",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a5c66651e7df9228b4637a4c52f6ef443f900935-640x427-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "3a94f78e09c71ec6886c545c8ce5ea19",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a5c66651e7df9228b4637a4c52f6ef443f900935-640x427-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "a2e68addd667e4e6f94f20c1238babd8",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a5c66651e7df9228b4637a4c52f6ef443f900935-640x427-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "7cb831e9851d72e878bf67e7738f34ac",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a5c66651e7df9228b4637a4c52f6ef443f900935-640x427-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "6e2473851e3f4d11db5ee8063d9581df",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a5c66651e7df9228b4637a4c52f6ef443f900935-640x427-jpg",
+          "_type": "reference"
+        }
+      }
+    ],
+    "stars": 4,
+    "tag": "Marari Houseboat, Mararikulam: Where Tranquility Meets Luxury",
+    "title": "MARARI HOUSEBOAT, MARARIKULAM",
+    "type": "PREMIUM"
+  },
+  {
+    "_createdAt": "2023-09-17T06:10:11Z",
+    "_id": "22f0afae-c2ce-40b3-9e17-a2299bca81f0",
+    "_rev": "KBw3nVeEVxu4B2GwD6dFHg",
+    "_type": "featuredBoats",
+    "_updatedAt": "2023-10-10T16:01:08Z",
+    "architecture": "The architecture seamlessly marries tradition with innovation. The spacious lounge deck boasts a unique blend of open-air relaxation and sheltered comfort. Inside, the interiors exude an air of sophistication, with polished wood finishes, large windows that frame panoramic views, and an ingenious layout that maximizes space and functionality.",
+    "bookings": 30,
+    "desc": "Step aboard the JCT Houseboat, a masterpiece meticulously crafted by Inland Marine, and allow yourself to be transported into a world of unparalleled luxury and tradition. Named after the gentle ripples of the waterways it graces, the JCT Houseboat is a true embodiment of our commitment to preserving Kerala's maritime heritage while offering an extraordinary modern experience.",
+    "designs": "The 'JCT Houseboat, Alleppey' is a visual symphony, characterized by its sleek lines and intricate wooden embellishments. From the ornate carvings that adorn the exterior to the harmonious color palette inspired by the surrounding nature, this houseboat is a true embodiment of artistry afloat.",
+    "dimensions": {
+      "length": 35,
+      "width": 6
+    },
+    "engex": "Built with unwavering precision, the 'JCT Houseboat, Alleppey' features state-of-the-art engineering that ensures smooth navigation and unparalleled stability on the water. The hull's design optimizes hydrodynamics, guaranteeing an effortless and serene voyage.",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-3518a4c9510b8466af5df9384f8e18b9866ed484-4348x2880-png",
+        "_type": "reference"
+      }
+    },
+    "imgs": [
+      {
+        "_key": "19037b2708a7",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-76c56dfa07bce124785552e3a84f7846594cfdd6-1280x963-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "0ae37506f18f",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-dfa6ec08af995eba8705dce5dbf019160f7b659d-963x1280-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "05024a399f82",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-2767446323a3b29bdfe847f7a9b5e8e926cfa7c1-963x1280-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "172611534f2a",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-cc0858b3d02395db61a481ba762dd16a8c229545-1280x963-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "7495d5b31b74",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-417031f8c38823d0a5f86a3416ff418d12f8ea1c-752x1000-jpg",
+          "_type": "reference"
+        }
+      }
+    ],
+    "stars": 3,
+    "tag": "Introducing the JCT Houseboat, Alleppey: Where Elegance Meets the Backwaters",
+    "title": "JCT HOUSEBOAT, ALLEPPEY",
+    "type": "DELUXE"
+  },
+  {
+    "_createdAt": "2023-09-17T06:17:56Z",
+    "_id": "bfb47c8a-d405-4142-947c-b1adc1e8d89d",
+    "_rev": "YfSuxLxia5i5tq82OdZUZs",
+    "_type": "featuredBoats",
+    "_updatedAt": "2023-10-10T15:59:22Z",
+    "architecture": "The architecture seamlessly marries tradition with innovation. The spacious lounge deck boasts a unique blend of open-air relaxation and sheltered comfort. Inside, the interiors exude an air of sophistication, with polished wood finishes, large windows that frame panoramic views, and an ingenious layout that maximizes space and functionality.",
+    "bookings": 30,
+    "desc": "Crafted with unwavering dedication by Inland Marine, this extraordinary vessel is an ode to the harmonious blend of tradition and luxury. As you step aboard the Spice Coast Cruises, you'll be enveloped by an atmosphere of timeless beauty. The intricate woodwork adorning the exterior pays homage to Kerala's rich maritime heritage, while the modern amenities and bespoke interiors offer an indulgent experience.",
+    "designs": "The 'JCT Houseboat, Alleppey' is a visual symphony, characterized by its sleek lines and intricate wooden embellishments. From the ornate carvings that adorn the exterior to the harmonious color palette inspired by the surrounding nature, this houseboat is a true embodiment of artistry afloat.",
+    "dimensions": {
+      "length": 35,
+      "width": 8
+    },
+    "engex": "Built with unwavering precision, the 'JCT Houseboat, Alleppey' features state-of-the-art engineering that ensures smooth navigation and unparalleled stability on the water. The hull's design optimizes hydrodynamics, guaranteeing an effortless and serene voyage.",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-fbb3feeb5416e2053f8bbc32a609b4cce4b02b02-1280x960-jpg",
+        "_type": "reference"
+      }
+    },
+    "imgs": [
+      {
+        "_key": "38afb88964e6",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-76c56dfa07bce124785552e3a84f7846594cfdd6-1280x963-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "08b47ac01a0e",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-dfa6ec08af995eba8705dce5dbf019160f7b659d-963x1280-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "282be4dcf5bc",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-2767446323a3b29bdfe847f7a9b5e8e926cfa7c1-963x1280-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "adb61836aeb8",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-cc0858b3d02395db61a481ba762dd16a8c229545-1280x963-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "9b6db3b2d800",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-417031f8c38823d0a5f86a3416ff418d12f8ea1c-752x1000-jpg",
+          "_type": "reference"
+        }
+      }
+    ],
+    "stars": 4,
+    "tag": "Embark on a an Exquisite Journey with Spice Cruises - Alleppey",
+    "title": "SPICE COAST CRUISES - ALLEPPEY",
+    "type": "LUXURY"
+  },
+  {
+    "_createdAt": "2023-09-18T06:58:27Z",
+    "_id": "image-049664aac7482fcb9c3f0f5afb4225aba0892b85-1087x720-jpg",
+    "_rev": "Xp6EAGifnwEDJbdZmfXs9L",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2023-09-18T06:58:27Z",
+    "assetId": "049664aac7482fcb9c3f0f5afb4225aba0892b85",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "VEBgJ900bE%LR*o#IU-=M{t7%LIA?cM{jZ_4D%xut7IU",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.5097222222222222,
+        "height": 720,
+        "width": 1087
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAcDBAUG/8QAIhAAAgEDBAIDAAAAAAAAAAAAAQIDAAQFERITIQZhB0Kx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGhEAAgMBAQAAAAAAAAAAAAAAAAECEVEhMf/aAAwDAQACEQMRAD8ASDifJywHgXai7TsH7XaYPGZnHiC+xcwWYdjhbR19GsTGao0kgJDMNDp1TD8eumgsY+MDc32PZrK4uNv0lLSXF/KXlGPt2guHaWUOSWkPY9UVQhsYb1pp5VG9pG16opTlocP/2Q==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3c4e37",
+          "foreground": "#fff",
+          "population": 4.12,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#505116",
+          "foreground": "#fff",
+          "population": 0.06,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#7b7d77",
+          "foreground": "#fff",
+          "population": 6.43,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b6c0c3",
+          "foreground": "#000",
+          "population": 1.41,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d4d1a4",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#7b7d77",
+          "foreground": "#fff",
+          "population": 6.43,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#706c34",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        }
+      }
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "boat1.png",
+    "path": "images/kb8cnfcp/production/049664aac7482fcb9c3f0f5afb4225aba0892b85-1087x720.jpg",
+    "sha1hash": "049664aac7482fcb9c3f0f5afb4225aba0892b85",
+    "size": 242234,
+    "uploadId": "pTwj9FBYc92Cuh8c1FGt9Pdiwuxh0pW1",
+    "url": "https://cdn.sanity.io/images/kb8cnfcp/production/049664aac7482fcb9c3f0f5afb4225aba0892b85-1087x720.jpg"
+  },
+  {
+    "_createdAt": "2023-10-10T15:53:44Z",
+    "_id": "image-2767446323a3b29bdfe847f7a9b5e8e926cfa7c1-963x1280-jpg",
+    "_rev": "YfSuxLxia5i5tq82OdY8Uw",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2023-10-10T15:53:44Z",
+    "assetId": "2767446323a3b29bdfe847f7a9b5e8e926cfa7c1",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "dGHo2k^*JDxu~UxZNHoc00IUxDn~M|bIs-jY%gxubIof",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.75234375,
+        "height": 1280,
+        "width": 963
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUCBAYD/8QAKBAAAgEDAgUDBQAAAAAAAAAAAQIDAAQRBRIGEyFBUTEyYUJTYnGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAZEQACAwEAAAAAAAAAAAAAAAAAAQIREiH/2gAMAwEAAhEDEQA/AH5s4WfmlZDu9xH1CuJtHi0+WNVIjMm4Z8VuJ9PtoYWEDIyj5pPrRENm+0JkL0z6UGGpULtNWYzZIPT+GirIEVyzyWyjlbsDB6Zx1oqvICkLJdaeBXWO9kURHdIzHIVf33NUIdevLi5tYDK8hvH2ojfb7tWa1cCO74btU6W8hBdOzH581c0Fi/HGt7jnkQHlfh07eKJPo1cHcN3cW811DpsgFrHMyrkZ8UVHgqNZtEEko3O0rEk96KWw8o//2Q==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3f4451",
+          "foreground": "#fff",
+          "population": 0.6,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#081018",
+          "foreground": "#fff",
+          "population": 0.1,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e3d8c1",
+          "foreground": "#000",
+          "population": 6.5,
+          "title": "#000"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c2b7ac",
+          "foreground": "#000",
+          "population": 6.39,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e3d8c1",
+          "foreground": "#000",
+          "population": 6.5,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#ac846c",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c1a47e",
+          "foreground": "#000",
+          "population": 0.66,
+          "title": "#fff"
+        }
+      }
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "pic4.jpeg",
+    "path": "images/kb8cnfcp/production/2767446323a3b29bdfe847f7a9b5e8e926cfa7c1-963x1280.jpg",
+    "sha1hash": "2767446323a3b29bdfe847f7a9b5e8e926cfa7c1",
+    "size": 85068,
+    "uploadId": "f5iZeabE8ZHCwJqCR6qMN27JqH3xI3q6",
+    "url": "https://cdn.sanity.io/images/kb8cnfcp/production/2767446323a3b29bdfe847f7a9b5e8e926cfa7c1-963x1280.jpg"
+  },
+  {
+    "_createdAt": "2023-09-17T06:14:30Z",
+    "_id": "image-2e7952684c7eb39b1e8c1ac367bf260ee327ded6-5873x3915-jpg",
+    "_rev": "d7tc5MqMIOwngMddr0eF6S",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2023-09-17T06:14:30Z",
+    "assetId": "2e7952684c7eb39b1e8c1ac367bf260ee327ded6",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "VbAVB~n$S$XSRj*0kCV@ayayX.X8V@nioJShaejZj[js",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.5001277139208173,
+        "height": 3915,
+        "width": 5873
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYCAwT/xAAiEAACAgIBAwUAAAAAAAAAAAABAgMEABEFEjFBBhMUFiH/xAAWAQEBAQAAAAAAAAAAAAAAAAADBAX/xAAdEQABBAIDAAAAAAAAAAAAAAADAAECIRITFFFS/9oADAMBAAIRAxEAPwCX2zj6KdPtl2HfZAzPxnr6pfvS1/j7CqTpP0jEGaQWEIljVifJynhumheeWuiqzLo6xcyZ29LMYIGFUbT/AGecgeUsIJBvwRhiRZ5GZpST3wxtku1Lxx+V/9k=",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#305a5c",
+          "foreground": "#fff",
+          "population": 7.47,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#224b4d",
+          "foreground": "#fff",
+          "population": 1.92,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#62b0bb",
+          "foreground": "#000",
+          "population": 9.47,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#8cbfc4",
+          "foreground": "#000",
+          "population": 0.64,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#74cce4",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#519aa1",
+          "foreground": "#fff",
+          "population": 9.19,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#62b0bb",
+          "foreground": "#000",
+          "population": 9.47,
+          "title": "#fff"
+        }
+      }
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "boat1.png",
+    "path": "images/kb8cnfcp/production/2e7952684c7eb39b1e8c1ac367bf260ee327ded6-5873x3915.jpg",
+    "sha1hash": "2e7952684c7eb39b1e8c1ac367bf260ee327ded6",
+    "size": 4211683,
+    "uploadId": "5mKlLhZkzzXQ6hGi9cOEyYO5j6YQgsmU",
+    "url": "https://cdn.sanity.io/images/kb8cnfcp/production/2e7952684c7eb39b1e8c1ac367bf260ee327ded6-5873x3915.jpg"
+  },
+  {
+    "_createdAt": "2023-09-26T20:04:02Z",
+    "_id": "image-3518a4c9510b8466af5df9384f8e18b9866ed484-4348x2880-png",
+    "_rev": "rssNgv560buB5sOSqfII5Q",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2023-09-26T20:04:02Z",
+    "assetId": "3518a4c9510b8466af5df9384f8e18b9866ed484",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "VEBgG200f#%LR*o}Mx?bIVt7%MIA?cM{f6_ND$xut7IU",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.5097222222222222,
+        "height": 2880,
+        "width": 4348
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAADCElEQVQokQXBW1faBgAA4PyDTuUWAoQESCRgQmJINFwTyIU7OgWhQKW03kDcqghMoaLYDak7nmM9c2vXc/pbeva2ri89217atz3vnP2CfR+AsbiUVZPrK27Gq7foDRa9HtIZrXobZsIZM8GBBAdyonujsTr96eb9H79/+vL5t48fP/z19z///gfQIWbtUam4WaEFxoSYDBYdaNXDTrObQkge9QXtdAShI6hfcieL8vF55/LmsnvWu3v7y4dPfwIEOy/n5YgWxigHiBiM1jmbw4R7YS/t9DAoySO+EEoFYa9g9YUc4RQjrwTimdB2++nrd28As9PgXIAdHjPkmDNYvzLBs+g8iJMwvoDiXoeHdhEMijNWMmBjRdQvYpxI8BFKy0m1J0XAaJkBbTMWZAa0PdCBD4yWWQSHPIsEtcQtRaKJXEZLK1yQZIMuPootBnCSwyj/fCBKiwoPmKBZyDZrd+hg1Gi2GkGLCcUx33JEkHO5UuOoPzwZDBqNh2trWiYTjccFXmBolhDC3qBEAkZQB0FzqBMiSDdBku4Fml4Sl2N5KV0u1Zu9wejF5Ori/Oykf/zsoNXc29oorYmyIKmspC0CkMMKIWYrBuMM7ReVWK6krj6KpcqJfHWjtrW11/728HgwHIzH48nkh5fXV53eYbaQkdOinJYAQiKRJZeFRm007pOiudrT9epeKl3O5yrV2s5u6/Coe3p2MZ5Mp7evbl+/+Xn8/ahQ+TqmiWpKBXwJCgu7EL8d9sFufiGWyWbyRSWWSsjp4npld++bk8Foen396u72/v7u7a/30+lF/XFhZVUpV1YBKoR5eLuXtVOcyx+k45qcSCUVOZ5MaKVSqbXfHj4fXL98cfPj5dVkdDUZDQeHjSeF2ubKbmsToDnEx9r8HBoIecUYrybERFLStGg2qz6sFPfbu6enR+PzzmjY/q7f7Pf32wf1ai1Xb6y3n+0ALI+yHLIsuMJRUor7ZUVQlGVVFdLpaKGY3t7Z7HSa/e52r/O4193unxw0W9XihlrfKnef9/8Hfpnk8N/dzVMAAAAASUVORK5CYII=",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#35472d",
+          "foreground": "#fff",
+          "population": 4.11,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#454818",
+          "foreground": "#fff",
+          "population": 0.07,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#35472d",
+          "foreground": "#fff",
+          "population": 4.11,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#abb5bb",
+          "foreground": "#000",
+          "population": 2.3,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d9dd9b",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#798086",
+          "foreground": "#fff",
+          "population": 1.47,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b7bf3f",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        }
+      }
+    },
+    "mimeType": "image/png",
+    "originalFilename": "boat1.png",
+    "path": "images/kb8cnfcp/production/3518a4c9510b8466af5df9384f8e18b9866ed484-4348x2880.png",
+    "sha1hash": "3518a4c9510b8466af5df9384f8e18b9866ed484",
+    "size": 19896021,
+    "uploadId": "tene1xHht8Yw361pUz0zbm3dsp189DvA",
+    "url": "https://cdn.sanity.io/images/kb8cnfcp/production/3518a4c9510b8466af5df9384f8e18b9866ed484-4348x2880.png"
+  },
+  {
+    "_createdAt": "2023-10-10T15:54:39Z",
+    "_id": "image-417031f8c38823d0a5f86a3416ff418d12f8ea1c-752x1000-jpg",
+    "_rev": "KBw3nVeEVxu4B2GwD6bBb7",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2023-10-10T15:54:39Z",
+    "assetId": "417031f8c38823d0a5f86a3416ff418d12f8ea1c",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "dXGuzV$jozjb?wW-Rjj[%hkDn*WVtUM{ozof-;ofRjax",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.752,
+        "height": 1000,
+        "width": 752
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAbABQDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAUHBgEE/8QAIhAAAQQCAgMBAQEAAAAAAAAAAQIDBBEABQYhEhNBUYHB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAgMEBf/EAB8RAAEEAgIDAAAAAAAAAAAAAAEAAgMRBCESEzFRUv/aAAwDAQACEQMRAD8A2TfOYK1AJjy6vtXqNDOvc907QV7HHEqHwoPeY9E2YWglnkceNDsgNv0FpP5f0Z4WY8h+SQrea6SsGqWQf8wGZEh80jfjUNFUCPznTvNBYkFN/CMMmuwhbBmUtCYzCgPqB0cMZ3S/KiLqNJDzPXyoIDsPWF2Mld2FeZ/uJNRPkyZjFa4sn22pRsUP05e9Yw0plQU2kgq+jJ7tDc+WmhSVEJAFV3kzpiwWrpzwGkyc5EhCvENeQHV1hiBtR8B3hijmS+1nr//Z",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3d5437",
+          "foreground": "#fff",
+          "population": 3.9,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3d6424",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e0bea1",
+          "foreground": "#000",
+          "population": 7.02,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#bcccdb",
+          "foreground": "#000",
+          "population": 6.86,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e0bea1",
+          "foreground": "#000",
+          "population": 7.02,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#9d7960",
+          "foreground": "#fff",
+          "population": 0.26,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c48c64",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        }
+      }
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "pic6.jpeg",
+    "path": "images/kb8cnfcp/production/417031f8c38823d0a5f86a3416ff418d12f8ea1c-752x1000.jpg",
+    "sha1hash": "417031f8c38823d0a5f86a3416ff418d12f8ea1c",
+    "size": 123307,
+    "uploadId": "BOtbuzprmNwMPiPYWURdhFPBmMkX3Mxd",
+    "url": "https://cdn.sanity.io/images/kb8cnfcp/production/417031f8c38823d0a5f86a3416ff418d12f8ea1c-752x1000.jpg"
+  },
+  {
+    "_createdAt": "2023-09-18T06:59:22Z",
+    "_id": "image-42b2698f371ba1cae505779f461726d6685d1ae4-735x403-jpg",
+    "_rev": "Xp6EAGifnwEDJbdZmfXsat",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2023-09-18T06:59:22Z",
+    "assetId": "42b2698f371ba1cae505779f461726d6685d1ae4",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "MsIi8mIn_MR*t7^,ofxbs;fk-qf8xboMWB",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.8238213399503722,
+        "height": 403,
+        "width": 735
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQGBwj/xAAjEAABAwMEAgMAAAAAAAAAAAABAgMEAAUGBxESIRNBFjJR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAcEQADAAEFAAAAAAAAAAAAAAAAAQIREiEiMVH/2gAMAwEAAhEDEQA/AKvUjLpc5ppQQplop4EhwpAP7UJY8hkwrrCVFkuPLU4kKSp/sd90vrG658cCOZCSQdhWUYCOWYW4EkjyD2ahjllvsnm6wtzu1jM4BZbLnlQspG6eBOxopm2Q44t8cBlH0Hqik10IlXp//9k=",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#25512e",
+          "foreground": "#fff",
+          "population": 0.54,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#545c25",
+          "foreground": "#fff",
+          "population": 6.31,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#545c25",
+          "foreground": "#fff",
+          "population": 6.31,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a9caa0",
+          "foreground": "#000",
+          "population": 4.23,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#cec893",
+          "foreground": "#000",
+          "population": 0.42,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#829860",
+          "foreground": "#fff",
+          "population": 1.65,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#cc8c54",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        }
+      }
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "boat2.png",
+    "path": "images/kb8cnfcp/production/42b2698f371ba1cae505779f461726d6685d1ae4-735x403.jpg",
+    "sha1hash": "42b2698f371ba1cae505779f461726d6685d1ae4",
+    "size": 53555,
+    "uploadId": "eaYGVb7c9s9KoDI74Bn6fc3ns9i7702y",
+    "url": "https://cdn.sanity.io/images/kb8cnfcp/production/42b2698f371ba1cae505779f461726d6685d1ae4-735x403.jpg"
+  },
+  {
+    "_createdAt": "2023-10-10T15:52:46Z",
+    "_id": "image-76c56dfa07bce124785552e3a84f7846594cfdd6-1280x963-jpg",
+    "_rev": "YfSuxLxia5i5tq82OdXn2G",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2023-10-10T15:52:46Z",
+    "assetId": "76c56dfa07bce124785552e3a84f7846594cfdd6",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "V~JRaSoft8offk~qWBWBayWB%MWBWBWBfPWBt7f6ayof",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.3291796469366564,
+        "height": 963,
+        "width": 1280
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAcIBf/EACQQAAIBAwQABwAAAAAAAAAAAAECAwAEEQUGByEUIiMxQVFh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAYEQEAAwEAAAAAAAAAAAAAAAAAARESIf/aAAwDAQACEQMRAD8AcGqb+bQrLxGpFGB6VAfMazrLl7bMqCbUpJYZicBCuevukVyLdXF8i+sx6wc0sJ4pWvYYJbh2Y+35V3Fi3W5Q2mmAL9QMZGKKlCx20ZLdXkYux+S1FTZ1/9k=",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#47443a",
+          "foreground": "#fff",
+          "population": 3.96,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#071104",
+          "foreground": "#fff",
+          "population": 0.04,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#848183",
+          "foreground": "#fff",
+          "population": 6.32,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#bebfcb",
+          "foreground": "#000",
+          "population": 4.15,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e4ecfb",
+          "foreground": "#000",
+          "population": 0.17,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#848183",
+          "foreground": "#fff",
+          "population": 6.32,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#822b33",
+          "foreground": "#fff",
+          "population": 0.03,
+          "title": "#fff"
+        }
+      }
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "pic1.jpeg",
+    "path": "images/kb8cnfcp/production/76c56dfa07bce124785552e3a84f7846594cfdd6-1280x963.jpg",
+    "sha1hash": "76c56dfa07bce124785552e3a84f7846594cfdd6",
+    "size": 112281,
+    "uploadId": "01fLMA2Elj1Qz9mfqlhLWZspYWtIG7jT",
+    "url": "https://cdn.sanity.io/images/kb8cnfcp/production/76c56dfa07bce124785552e3a84f7846594cfdd6-1280x963.jpg"
+  },
+  {
+    "_createdAt": "2023-09-17T06:16:54Z",
+    "_id": "image-a5c66651e7df9228b4637a4c52f6ef443f900935-640x427-jpg",
+    "_rev": "d7tc5MqMIOwngMddr0eYzM",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2023-09-17T06:16:54Z",
+    "assetId": "a5c66651e7df9228b4637a4c52f6ef443f900935",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "V,Is8#XAo}jFV@.AWBWAoffkN}NGe:kBkDNKWEt6ayay",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.4988290398126465,
+        "height": 427,
+        "width": 640
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABwAEBf/EACEQAAIBBAICAwAAAAAAAAAAAAECAwAEBREGEhNBIjFh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgMF/8QAHhEAAQQBBQAAAAAAAAAAAAAAAQACAxEEEhNSkuH/2gAMAwEAAhEDEQA/AFxJMQLSW6cP4/s7WsNty/CxRsbaJOquE7Lo0eSchu5Wlhk0Ym+JX1quDZYy2hvzNErIFft0DHRP7TycmZlDVdrPgbCbIbSan5aisQpKr6Aqo/OUkckmNKqhuZHMdfUrC//Z",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#594f35",
+          "foreground": "#fff",
+          "population": 2.03,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#6b800c",
+          "foreground": "#fff",
+          "population": 0.71,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#608881",
+          "foreground": "#fff",
+          "population": 6.6,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#aec3d1",
+          "foreground": "#000",
+          "population": 1,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#88c8f6",
+          "foreground": "#000",
+          "population": 3.43,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#608881",
+          "foreground": "#fff",
+          "population": 6.6,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2fb1f5",
+          "foreground": "#fff",
+          "population": 1.08,
+          "title": "#fff"
+        }
+      }
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "boat2.png",
+    "path": "images/kb8cnfcp/production/a5c66651e7df9228b4637a4c52f6ef443f900935-640x427.jpg",
+    "sha1hash": "a5c66651e7df9228b4637a4c52f6ef443f900935",
+    "size": 84897,
+    "uploadId": "czWpMdAlCrXO2wi00Vc1XNuZI72MbEkW",
+    "url": "https://cdn.sanity.io/images/kb8cnfcp/production/a5c66651e7df9228b4637a4c52f6ef443f900935-640x427.jpg"
+  },
+  {
+    "_createdAt": "2023-10-10T15:53:06Z",
+    "_id": "image-a62fab53d84032a71a62dc4e4922968d966e231b-1280x963-jpg",
+    "_rev": "HbcR2gq5gKXkaTUSWi14Gb",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2023-10-10T15:53:06Z",
+    "assetId": "a62fab53d84032a71a62dc4e4922968d966e231b",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "V,HV6sofxuozt7~qRjWCayj[-;WBRjWBayt7t7WBWBay",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.3291796469366564,
+        "height": 963,
+        "width": 1280
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAcIBQb/xAAiEAACAQMEAgMAAAAAAAAAAAABAgMABBEFBgchEjETFGH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABgRAQEAAwAAAAAAAAAAAAAAAAEAAxET/9oADAMBAAIRAxEAPwDvN38hX+2Xtwsiz/Megxx6rMXm7SZ4oxqkcv2Q2GiQjApRcmTy6glsBI6+Ge890t7awa4DTs7Kc4990cgTTWfFyns4xIz3ARioJUjsflFTDomjQSWIaRS7Fjli3uip61A3/9k=",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#403a2d",
+          "foreground": "#fff",
+          "population": 4.2,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#341404",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#7c7a79",
+          "foreground": "#fff",
+          "population": 6.05,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c7bcb4",
+          "foreground": "#000",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f5a983",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#7c7a79",
+          "foreground": "#fff",
+          "population": 6.05,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#ec5b12",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        }
+      }
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "pic2.jpeg",
+    "path": "images/kb8cnfcp/production/a62fab53d84032a71a62dc4e4922968d966e231b-1280x963.jpg",
+    "sha1hash": "a62fab53d84032a71a62dc4e4922968d966e231b",
+    "size": 107481,
+    "uploadId": "DpnvXzGXwZ9NSAhb5ReCBlsDjZCi6Lls",
+    "url": "https://cdn.sanity.io/images/kb8cnfcp/production/a62fab53d84032a71a62dc4e4922968d966e231b-1280x963.jpg"
+  },
+  {
+    "_createdAt": "2023-10-10T15:54:24Z",
+    "_id": "image-cc0858b3d02395db61a481ba762dd16a8c229545-1280x963-jpg",
+    "_rev": "YfSuxLxia5i5tq82OdYJtm",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2023-10-10T15:54:24Z",
+    "assetId": "cc0858b3d02395db61a481ba762dd16a8c229545",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "VfD]#kR*M{jYRj.TWVjEWBaeKlWAxZR*oeT1R*s:azof",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.3291796469366564,
+        "height": 963,
+        "width": 1280
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAUHBv/EACEQAAICAgICAwEAAAAAAAAAAAECAwQAIQURBjEHFjJh/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//EAB0RAAEEAgMAAAAAAAAAAAAAAAABBBESAgMiQVH/2gAMAwEAAhEDEQA/ADx3yBZKrtJyMDzN7Dn8nGp5WUJ0L/HBmOnLaGRTjL9SGEtLX7lJ2e/eNPs0QACVYdeu0yrOojFVMqtZ5IhtrfypyVWd4I4K0ipoMo0f7hk4atUsMZWlcFj2QBoYYQ49FfX0f//Z",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#4b473b",
+          "foreground": "#fff",
+          "population": 9.01,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#673c16",
+          "foreground": "#fff",
+          "population": 0.06,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#4b473b",
+          "foreground": "#fff",
+          "population": 9.01,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#8caec1",
+          "foreground": "#000",
+          "population": 0.18,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#92bdf5",
+          "foreground": "#000",
+          "population": 0.04,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#8e7562",
+          "foreground": "#fff",
+          "population": 8.64,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c18b53",
+          "foreground": "#fff",
+          "population": 1.44,
+          "title": "#fff"
+        }
+      }
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "pic5.jpeg",
+    "path": "images/kb8cnfcp/production/cc0858b3d02395db61a481ba762dd16a8c229545-1280x963.jpg",
+    "sha1hash": "cc0858b3d02395db61a481ba762dd16a8c229545",
+    "size": 248020,
+    "uploadId": "osHdqSq3i3E4YJyh0AYROFFObF60rnv6",
+    "url": "https://cdn.sanity.io/images/kb8cnfcp/production/cc0858b3d02395db61a481ba762dd16a8c229545-1280x963.jpg"
+  },
+  {
+    "_createdAt": "2023-10-10T15:53:26Z",
+    "_id": "image-dfa6ec08af995eba8705dce5dbf019160f7b659d-963x1280-jpg",
+    "_rev": "HbcR2gq5gKXkaTUSWi17RL",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2023-10-10T15:53:26Z",
+    "assetId": "dfa6ec08af995eba8705dce5dbf019160f7b659d",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "dJGbhvkXxvoz~VIVM{oeMxE1aejYIUxvx]n~ozNGs:oe",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.75234375,
+        "height": 1280,
+        "width": 963
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMEBQcG/8QAJhAAAgICAQEJAQEAAAAAAAAAAQIDBAAFESEGEhQiMUFRYXETMv/EABYBAQEBAAAAAAAAAAAAAAAAAAMBAP/EABwRAAICAgMAAAAAAAAAAAAAAAABAhFBURIiMf/aAAwDAQACEQMRAD8AfWgedwsaljl3UpV6580Xi7IUsFH+F/fnER7WjBEDGJIYT6LMncY4pe01eGYiBkD/AMmbr18vucOUG/RFJYLSGfY2IxI9iSP2CR9AB9YZV6zdW7NUSUJFlgJPDAc4ZFGsGciFvN7X2Lzi5w3RlBHyBmL03nu7GaOqLRTgglSee7z1H5nYVPNX1BbqXd+999MkdkgEgpsgAY25IyQPVT7Y1W7IpcVQrSttdRS8Lrt00EAYsEZQCCcM03T6ylZqF56sUjhyvLLyeMMSp7C6aP/Z",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#482f2c",
+          "foreground": "#fff",
+          "population": 1.71,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#190704",
+          "foreground": "#fff",
+          "population": 0.18,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e9e5d6",
+          "foreground": "#000",
+          "population": 6.8,
+          "title": "#000"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e9e5d6",
+          "foreground": "#000",
+          "population": 6.8,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d4b27f",
+          "foreground": "#000",
+          "population": 0.41,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#847c7c",
+          "foreground": "#fff",
+          "population": 6.22,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#cc946c",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        }
+      }
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "pic3.jpeg",
+    "path": "images/kb8cnfcp/production/dfa6ec08af995eba8705dce5dbf019160f7b659d-963x1280.jpg",
+    "sha1hash": "dfa6ec08af995eba8705dce5dbf019160f7b659d",
+    "size": 118781,
+    "uploadId": "FXj0i044W3ViWlGepIRshrbkc5QPnF2m",
+    "url": "https://cdn.sanity.io/images/kb8cnfcp/production/dfa6ec08af995eba8705dce5dbf019160f7b659d-963x1280.jpg"
+  },
+  {
+    "_createdAt": "2023-09-18T06:59:41Z",
+    "_id": "image-fbb3feeb5416e2053f8bbc32a609b4cce4b02b02-1280x960-jpg",
+    "_rev": "Xp6EAGifnwEDJbdZmfXssb",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2023-09-18T06:59:41Z",
+    "assetId": "fbb3feeb5416e2053f8bbc32a609b4cce4b02b02",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "VGFFHS%g9asle-00D%o~t8oz_N%Mt6WYWB03V@t7R+oL",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.3333333333333333,
+        "height": 960,
+        "width": 1280
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAUGAv/EACEQAAICAgEFAQEAAAAAAAAAAAECAwQABQYREiFBUQdC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQME/8QAHREAAAYDAQAAAAAAAAAAAAAAAAECERITIUKRQ//aAAwDAQACEQMRAD8AhniksWwrvLAhPzrjQaiOOId9y0AfPeF6DLXR/lWzqVjM2wrSOfbAnpirkPBdiFY2NrEVH8qrAZlNBvKeRZK8RhwRF3tgsvGmwcqvtnwzM/E5FlYC5D4+q2GNjbkCt/M+j//Z",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#4f402e",
+          "foreground": "#fff",
+          "population": 5.97,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#623b09",
+          "foreground": "#fff",
+          "population": 0.62,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#4f402e",
+          "foreground": "#fff",
+          "population": 5.97,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d4b99f",
+          "foreground": "#000",
+          "population": 3.31,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e4a36f",
+          "foreground": "#000",
+          "population": 0.04,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#8f8570",
+          "foreground": "#fff",
+          "population": 4.45,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b98347",
+          "foreground": "#fff",
+          "population": 0.61,
+          "title": "#fff"
+        }
+      }
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "boat3.png",
+    "path": "images/kb8cnfcp/production/fbb3feeb5416e2053f8bbc32a609b4cce4b02b02-1280x960.jpg",
+    "sha1hash": "fbb3feeb5416e2053f8bbc32a609b4cce4b02b02",
+    "size": 136396,
+    "uploadId": "0FHHolQ378cHrUAD77wy58ErF1X6fYo5",
+    "url": "https://cdn.sanity.io/images/kb8cnfcp/production/fbb3feeb5416e2053f8bbc32a609b4cce4b02b02-1280x960.jpg"
+  }
+]
